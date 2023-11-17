@@ -1,12 +1,12 @@
 
-title: LiteGapps
-email: litegapps@gmail.com
-description: "The LiteGapps Project Official Website"
+title: Best Magisk Module
+email: bestmagiskmodule@gmail.com
+description: "Best Magisk Module"
 baseurl: "/"
-url: "https://litegapps.github.io"
-twitter_username: litegapps
-github_username:  litegapps
-author: LiteGapps
+url: "https://bestmagiskmodule.github.io"
+twitter_username: bestmagisk
+github_username:  bestmagisk
+author: bestmagisk
 
 # Build settings
 theme: minima
