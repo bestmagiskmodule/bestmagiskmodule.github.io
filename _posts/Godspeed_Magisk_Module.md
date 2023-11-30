@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unlocking Speed with Godspeed Mode Magisk Module</title>
+    <h1>Unlocking Speed with Godspeed Mode Magisk Module</h1>
     <meta name="description" content="Explore the benefits of the Godspeed Mode Magisk Module for an optimized and faster Android experience.">
 </head>
 <body>
