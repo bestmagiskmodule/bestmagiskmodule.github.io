@@ -1,3 +1,10 @@
+---
+layout: home
+title: The SDM Next Gen Optimization Magisk Module
+lang: eng
+tagline: Magisk
+---
+
 <h1>The SDM Next Gen Optimization Magisk Module</h1>
 
 <p>Experience a new level of device performance with the SDM Next Gen Optimization Magisk Module. Crafted to elevate the functionality of Snapdragon devices, this module promises a seamless and swift user experience.</p>
