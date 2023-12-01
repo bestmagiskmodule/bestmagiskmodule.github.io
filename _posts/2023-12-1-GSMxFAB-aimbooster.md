@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Best Magisk Module
+title: Aim Booster GSMxFAB
 lang: eng
 tagline: Magisk
 ---
