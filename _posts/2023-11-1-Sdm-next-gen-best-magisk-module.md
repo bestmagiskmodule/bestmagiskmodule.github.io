@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: blog
 title: The SDM Next Gen Optimization Magisk Module
 lang: eng
 tagline: Magisk
