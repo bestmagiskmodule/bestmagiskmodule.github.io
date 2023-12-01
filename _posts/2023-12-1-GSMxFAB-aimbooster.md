@@ -6,7 +6,7 @@ lang: eng
 tagline: Magisk Module
 ---
 
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
