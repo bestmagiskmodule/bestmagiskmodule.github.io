@@ -222,6 +222,3 @@ tagline: Magisk Module for Enhanced Connectivity
 </div>
 
 
-</body>
-
-</html>
