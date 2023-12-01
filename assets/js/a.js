@@ -1,6 +1,6 @@
 function search() {
             var searchTerm = document.getElementById("searchTerm").value;
-            var url = "https://magiskflash.com/?search=" + encodeURIComponent(searchTerm);
+            var url = "google.com?search=magiskflash.com" + encodeURIComponent(searchTerm);
             window.location.href = url;
         }
 	
