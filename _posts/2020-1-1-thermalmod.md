@@ -22,5 +22,4 @@
 </ol>
 
 <p>Unlock the true potential of your device with the Best Thermal Mod Magisk Module. Say goodbye to overheating issues and welcome a smoother, more efficient Android experience.</p>
-</body>
-</html>
+
