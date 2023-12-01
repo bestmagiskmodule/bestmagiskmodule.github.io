@@ -1,9 +1,8 @@
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SDM Next Gen Optimization Magisk Module</title>
-    <meta name="description" content="Explore the benefits of the SDM Next Gen Optimization Magisk Module, a powerful tool to enhance Snapdragon devices for a smoother user experience.">
-    <link rel="stylesheet" href="styles.css">
+
+    <h1>SDM Next Gen Optimization Magisk Module</h1>
+    content="Explore the benefits of the SDM Next Gen Optimization Magisk Module, a powerful tool to enhance Snapdragon devices for a smoother user experience."
+    
 
 
 
