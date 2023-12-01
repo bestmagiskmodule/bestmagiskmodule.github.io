@@ -5,16 +5,14 @@ lang: eng
 tagline: Magisk
 ---
 
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GOD SPEED FIX AIM BOOST - GSM FAB MAGISK MODULE</title>
-</head>
 
-<body>
+
+
+    
+    
+
+
 
     <article>
 
@@ -33,13 +31,3 @@ tagline: Magisk
         <p>As you strive for victory in the gaming arena, GOD SPEED FIX AIM BOOST stands as your unwavering ally, addressing the very heart of aim-related challenges. Say goodbye to frustrating misses and hello to a newfound level of accuracy.</p>
 
         <p>Ready to elevate your gaming experience? Install GOD SPEED FIX AIM BOOST today and witness the transformation of your aim into a force to be reckoned with.</p>
-
-        <footer>
-            <p>For more information and to download the module, visit <a href="https://www.pling.com/p/1878564/" target="_blank">GOD SPEED FIX AIM BOOST</a>.</p>
-        </footer>
-
-    </article>
-
-</body>
-
-</html>
