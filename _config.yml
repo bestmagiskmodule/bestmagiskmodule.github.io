@@ -9,6 +9,7 @@ github_username:  best magisk
 author: best magisk
 
 # Build settings
+
 theme: minima
 plugins:
   - jekyll-feed

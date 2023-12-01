@@ -1,4 +1,12 @@
- 
+ ---
+layout: blog
+title: Unleashing Lightning Speed with Fast Charging Controller Magisk Module
+date: 2023-12-01
+lang: eng
+tagline: Magisk Module
+---
+
+
 <header>
     <h1>Unlocking Speed with Godspeed Mode Magisk Module</h1>
     <h3 class="fw-bold mb-0 fs-4"><a href="https://www.magiskflash.com/2023/11/best-magisk-module-for-gaming-boost.html">GODSPEED MODE</a></h3>
