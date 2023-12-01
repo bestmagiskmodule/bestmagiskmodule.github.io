@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: blog
 title: Best Magisk Module
 lang: eng
 tagline: Magisk
