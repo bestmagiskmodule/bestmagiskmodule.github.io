@@ -1,12 +1,12 @@
 
 title: Best Magisk Module
-email: bestmagiskmodule@gmail.com
+email: null
 description: "Best Magisk Module"
 baseurl: "/"
 url: "https://bestmagiskmodule.github.io"
-twitter_username: bestmagisk
-github_username:  bestmagisk
-author: bestmagisk
+twitter_username: best magisk module
+github_username:  best magisk
+author: best magisk
 
 # Build settings
 theme: minima
