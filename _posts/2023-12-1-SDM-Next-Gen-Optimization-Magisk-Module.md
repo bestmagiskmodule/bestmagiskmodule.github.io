@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Unleashing Power with SDM Next Gen Optimization Magisk Module
-date: 2023-12-02
+date: 2023-12-02 
 lang: eng
 tagline: Magisk Module
 ---
