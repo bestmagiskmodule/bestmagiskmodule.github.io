@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: SafetyNet Fix: Guide to Enhance Security and Compatibility with SafetyNet Fix Magisk Module
+title: SafetyNet Fix Guide to Enhance Security and Compatibility with SafetyNet Fix Magisk Module
 date: 2023-12-2
 lang: eng
 tagline: Magisk Module
