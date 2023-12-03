@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Xposed and EdXposed Frameworks: A Comprehensive Guide
+title: Xposed and EdXposed Frameworks A Comprehensive Guide
 date: 2023-12-2
 lang: eng
 tagline: Magisk Module
