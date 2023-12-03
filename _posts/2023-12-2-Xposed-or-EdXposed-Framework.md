@@ -14,15 +14,15 @@ In the dynamic realm of Android customization, the Xposed Framework and its Magi
 
 The Xposed Framework is a revolutionary tool that enables users to modify the behavior of their Android devices without altering the system files. By acting as a middleman between the Android operating system and the installed modules, Xposed provides unparalleled flexibility for users seeking a customized experience. Let's explore the key aspects of Xposed:
 
-### Installation Process
+## Installation Process
 
 The process of installing Xposed involves several steps, starting with ensuring your device is rooted. Once rooted, users can flash the Xposed Framework through custom recovery. This section will guide you through the installation process, ensuring a seamless integration with your device.
 
-### Xposed Modules: Extending Functionality
+## Xposed Modules: Extending Functionality
 
 The true power of Xposed lies in its vast library of modules. These modules, developed by the XDA community and other enthusiasts, cover a wide range of functionalities. From UI tweaks to performance enhancements, users can cherry-pick modules that align with their preferences. We'll explore some of the must-have Xposed modules and discuss how they can elevate your Android experience.
 
-### Xposed and Magisk: A Harmonious Coexistence
+## Xposed and Magisk: A Harmonious Coexistence
 
 For users who prefer Magisk as their primary customization tool, Xposed has adapted to coexist harmoniously. This section will guide you through the integration of Xposed with Magisk, allowing users to enjoy the best of both worlds without compromising stability.
 
