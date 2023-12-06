@@ -91,7 +91,14 @@ a {
 	font-family: 'notes';
 	color: #008000;
 	}
-
+.blog_border {
+	padding: 1.5rem;
+	border-radius: 4px;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	
+	
+	}
 .search-container {
             display: flex;
             align-items: center;
