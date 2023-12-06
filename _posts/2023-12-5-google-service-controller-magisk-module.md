@@ -53,5 +53,5 @@ In the ever-evolving world of Android customization, the Google Service Controll
 
 ## References and Links
 
-- [Get Google Service Controller Module](https://www.magiskflash.com/#?url=mLO0bLF4Gw17v7bybZeanfbyW81uG7MtFjCeFUYwFI2=)
+- [####Get Google Service Controller Module](https://www.magiskflash.com/#?url=mLO0bLF4Gw17v7bybZeanfbyW81uG7MtFjCeFUYwFI2=)
 - [Visit ](https://godTspeed.xyz)
