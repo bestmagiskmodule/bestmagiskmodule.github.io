@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Top 10 Best Magisk Modules for Your Android Device
-date: 2023-12-06
+date: 2023-12-07
 lang: eng
 tagline: Magisk Module
 ---
