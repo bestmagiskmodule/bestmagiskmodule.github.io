@@ -5,9 +5,6 @@ date: 2023-12-07
 lang: eng
 tagline: Magisk Module
 ---
-![D9CF131B-55F1-43BF-8F57-5E65DD30A4B2](https://github.com/bestmagiskmodule/bestmagiskmodule.github.io/assets/89025328/58528b51-eeb6-46fe-b080-bd1c518dc87b)
-
-
 
 # 10 Best Magisk Modules for Your Android Device
 
