@@ -5,6 +5,8 @@ date: 2023-12-07
 lang: eng
 tagline: Magisk Module
 ---
+![Bento Box Pitch Deck Presentation](https://github.com/bestmagiskmodule/bestmagiskmodule.github.io/assets/89025328/5cd414ff-f56e-488b-b54b-56d301e48a48)
+
 
 # 10 Best Magisk Modules for Your Android Device
 
