@@ -171,4 +171,4 @@ As we conclude this extensive guide to FoxMM, it's evident that this Androidacy 
 **Additional Reading and Resources:**
 - [FoxMM GitHub Repository](https://github.com/Fox2Code/FoxMagiskModuleManager)
 - [Androidacy Website](https://www.androidacy.com/?utm_source=fox-readme&utm_medium=web&utm_campagin=github)
-- [FoxMM Forums](https://forum.fox2code.de/)
+ 
