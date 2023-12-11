@@ -20,7 +20,7 @@ RootCloak is a Magisk module designed to hide the root status of your device fro
    - Before diving into RootCloak, you need to have Magisk installed on your device. Magisk is a systemless root solution that offers extensive customization and modularity.
 
 2. **Download RootCloak Module:**
-   - Visit the official repository for [RootCloak on GitHub](insert_link_here) and download the latest version of the module.
+   - Visit the official repository for [Save RootCloak ]([insert_link_here](https://www.pling.com/p/2083669/)) and download the latest version of the module.
 
 3. **Install RootCloak:**
    - Open the Magisk Manager app, go to the Modules section, and tap on the '+' icon to add a new module. Select the RootCloak ZIP file you downloaded.
@@ -58,8 +58,6 @@ RootCloak for Magisk stands as a testament to the flexibility and power that Mag
 
 ### Further Resources
 
-- [RootCloak GitHub Repository](insert_link_here)
-- [Magisk GitHub Repository](insert_link_here)
-- [Magisk Manager on GitHub](insert_link_here)
+- [RootCloak GitHub Repository](https://www.pling.com/p/2083669/)
 
 By embracing RootCloak, you can navigate the challenges posed by root detection in various apps, ensuring a smooth and integrated experience on your rooted Android device. As the Magisk ecosystem evolves, RootCloak remains a valuable tool for users who want to maximize the potential of their rooted devices without compromising app compatibility.
