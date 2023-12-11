@@ -156,7 +156,7 @@ The strength of FoxMM lies not only in its features but also in the vibrant comm
 
 ### FoxMM Forums
 
-Visit the [FoxMM Forums](https://forum.fox2code.de/) to connect with other users, seek assistance, and participate in discussions surrounding FoxMM's features, updates, and potential improvements.
+Visit the FoxMM  to connect with other users, seek assistance, and participate in discussions surrounding FoxMM's features, updates, and potential improvements.
 
 ### GitHub Contributions
 
