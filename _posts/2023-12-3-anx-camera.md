@@ -25,13 +25,13 @@ The ANX Camera Magisk Module is designed to bridge the gap between stock camera 
 
 To integrate the ANX Camera Magisk Module into your Android device, follow these simple steps:
 
-1. Download the ANX Camera Magisk Module from the official repository: [ANX Camera GitHub](<insert link>).
+1. Download the ANX Camera Magisk Module from the official repository: [ANX Camera GitHub](https://www.pling.com/p/1321115/).
 
-2. Open Magisk Manager on your device and navigate to the Modules section.
+3. Open Magisk Manager on your device and navigate to the Modules section.
 
-3. Tap the "+" button and select the downloaded ANX Camera Magisk Module.
+4. Tap the "+" button and select the downloaded ANX Camera Magisk Module.
 
-4. Reboot your device to apply the changes and unleash the full potential of your camera.
+5. Reboot your device to apply the changes and unleash the full potential of your camera.
 
 ## Exploring Advanced Photography Modes
 
