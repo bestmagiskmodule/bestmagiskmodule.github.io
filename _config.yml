@@ -8,9 +8,8 @@ twitter_username: best magisk module
 github_username:  best magisk
 author: best magisk
 
-# Build settings
 
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
