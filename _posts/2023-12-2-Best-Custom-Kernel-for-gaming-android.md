@@ -24,7 +24,7 @@ Before we delve into the specifics of each custom kernel, it's crucial to unders
      - Support for various Android devices.
 
 ### 2. Franco Kernel
-   - **[Franco Kernel on XDA Developers](https://www.xda-developers.com/franco-kernel/)**
+   - Link Not Available
 
    Renowned developer Francisco Franco has left an indelible mark on the Android customization scene, and the Franco Kernel stands as a testament to his dedication to optimizing device performance. Franco Kernel emphasizes a balance between performance and battery life, providing users with a rich set of features while maintaining system stability.
 
