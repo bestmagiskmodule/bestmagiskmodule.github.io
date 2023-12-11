@@ -72,5 +72,4 @@ As we conclude this comprehensive guide to the Magisk Module Repository, you are
 
 - [Magisk Official Website](https://magisk.me/)
 - [Magisk GitHub Repository](https://github.com/topjohnwu/Magisk)
-- [Magisk Community Forums](https://forum.xda-developers.com/f/magisk.3455405/)
 - [Magisk Module Repository on GitHub](https://github.com/Magisk-Modules-Repo)
