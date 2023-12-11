@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Exploring the Open WebView Magisk Module: A Deep Dive
+title: Open WebView Magisk Module A Deep Dive
 date: 2023-12-11
 lang: eng
 tagline: Magisk Module
