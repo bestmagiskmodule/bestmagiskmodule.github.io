@@ -24,7 +24,7 @@ Delve into the advancements and changes in Lawnchair 13, providing insights into
 
 Discuss the evolution of Lawnchair 2, focusing on any major updates or enhancements.
 
-# Compatibility and Integration
+# #Compatibility and Integration
 
 ## Lawnchair Android Versions
 
@@ -34,30 +34,30 @@ Examine the compatibility of Lawnchair with various Android versions, including 
 
 Explore the GitHub repository of Lawnchair, emphasizing the community-driven development and contributions.
 
-# Key Features
+## Key Features
 
 Highlight essential features that make Lawnchair a preferred choice for Android users. Include customization options, performance improvements, etc.
 
-# Installation Guide
+## Installation Guide
 
 Guide users on how to install Lawnchair Magisk Module, providing step-by-step instructions and necessary links.
 
-# Advanced Tweaks and Customization
+## Advanced Tweaks and Customization
 
 Offer insights into advanced tweaks and customization options available with Lawnchair, showcasing its flexibility.
 
-# GitHub Collaboration
+## GitHub Collaboration
 
 Discuss the collaboration on GitHub, how users can contribute, and how the community plays a role in shaping Lawnchair's future.
 
-# Version Updates
+## Version Updates
 
 Keep users informed about the latest version updates, bug fixes, and any upcoming features.
 
-# Conclusion
+## Conclusion
 
 Summarize the key points discussed and emphasize why Lawnchair Magisk Module stands out in the Android customization scene.
 
-# External Resource
+## External Resource
 
-Provide the link to the detailed download guide: [Lawnchair Magisk Module Download](https://www.magiskflash.com/2023/11/lawnchair-magisk-module-download.html)
+Provide the link to the detailed download guide: [Lawnchair Magisk Module Save](https://www.magiskflash.com/2023/11/lawnchair-magisk-module-download.html)
