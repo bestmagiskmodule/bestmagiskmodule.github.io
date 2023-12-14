@@ -10,7 +10,7 @@ tagline: Magisk Module
 
 Briefly introduce Lawnchair Magisk Module, its significance, and its popularity in the Android customization community.
 
-# Understanding Lawnchair Versions
+## Understanding Lawnchair Versions
 
 ## Lawnchair 12
 
@@ -24,7 +24,7 @@ Delve into the advancements and changes in Lawnchair 13, providing insights into
 
 Discuss the evolution of Lawnchair 2, focusing on any major updates or enhancements.
 
-# Compatibility and Integration
+## Compatibility and Integration
 
 Lawnchair Magisk Module is designed to seamlessly integrate into various Android environments. Understanding its compatibility and integration aspects is crucial for users looking to enhance their Android experience.
 
