@@ -44,3 +44,101 @@
     </footer>
 </body>
 </html>
+# Godspeed Mode Magisk Module - GSM ROR Addon
+
+## Changelog
+
+### Version 3.x.4 - "Sukuna's Rebirth"
+
+#### Features:
+- Introducing GSM ROR (Godspeed Mode ROR) addon, a separated module focusing on specific functionality.
+- Terminal command `su -c ror` is now dedicated to the GSM ROR addon.
+- This separation aims to streamline development, making it easier to identify bugs and implement updates.
+
+
+#### Kernel, CPU, GPU, String, and Tweak Related Changes:
+- **Kernel Optimization:**
+  - Implemented advanced kernel tweaks for improved performance and responsiveness.
+  - Fine-tuned CPU governor settings for enhanced power efficiency.
+  - Added support for custom kernels with specific optimizations.
+
+- **GPU Enhancements:**
+  - Integrated GPU boost tweaks for better graphics rendering.
+  - Optimized GPU clock speeds for a smoother gaming experience.
+
+- **String and Tweak Improvements:**
+  - Updated system string tweaks for a more responsive UI.
+  - Introduced customizable tweak options through the control panel.
+  - Fine-tuned system parameters for increased overall system speed.
+#### Bug Fixes:
+- Resolved issues related to GSM ROR functionality.
+- Addressed potential conflicts with other modules.
+
+#### Miscellaneous:
+- Streamlined codebase for improved maintainability.
+- Updated documentation to reflect changes in the addon structure.
+- Enhanced error handling and reporting.
+
+### Version 3.x.3 - "Ephemeral Velocity"
+
+#### Features:
+- Implemented advanced speed optimizations for Godspeed Mode.
+- Introduced dynamic resource allocation to enhance performance.
+- Added compatibility improvements for the latest Magisk versions.
+
+#### Bug Fixes:
+- Fixed occasional crashes during module initialization.
+- Resolved conflicts with specific device configurations.
+
+#### Miscellaneous:
+- Updated dependencies to ensure compatibility.
+- Improved logging for better debugging capabilities.
+
+### Version 3.x.2 - "Quantum Leap"
+
+#### Features:
+- Introduced Quantum Leap algorithm for significant speed enhancements.
+- Added support for additional device models.
+- Implemented user-configurable settings for fine-tuning performance.
+
+#### Bug Fixes:
+- Addressed issues related to module activation on certain devices.
+- Fixed compatibility issues with custom kernels.
+
+#### Miscellaneous:
+- Optimized codebase for better resource utilization.
+- Updated documentation with Quantum Leap configuration details.
+
+### Version 3.x.1 - "Nebula Nexus"
+
+#### Features:
+- Added Nebula Nexus integration for seamless connectivity.
+- Improved compatibility with custom ROMs and kernels.
+- Introduced a dedicated control panel for easy configuration.
+
+#### Bug Fixes:
+- Resolved connectivity issues with specific network configurations.
+- Fixed compatibility issues with certain Magisk versions.
+
+#### Miscellaneous:
+- Streamlined installation process for a smoother user experience.
+- Updated support for the latest Android security patches.
+
+### Version 3.0 - "Godspeed Unleashed"
+
+#### Major Release:
+- Godspeed Mode Magisk Module 3.0 with groundbreaking performance enhancements.
+- Introduced a modular architecture for better customization.
+- Enhanced compatibility with a wide range of devices and Android versions.
+
+#### Bug Fixes:
+- Addressed critical bugs affecting stability and performance.
+- Resolved conflicts with other Magisk modules.
+
+#### Miscellaneous:
+- Overhauled user interface for a modern and intuitive experience.
+- Comprehensive documentation update for the new features and customization options.
+- Community-driven feedback and testing contributed to a more robust release.
+
+
+
