@@ -1,4 +1,9 @@
- 
+ ---
+layout: blog
+title: Godspeed Mode ROR Magisk Module
+lang: eng
+tagline: Magisk
+---
 <html lang="en">
 <head>
     <meta charset="UTF-8">
