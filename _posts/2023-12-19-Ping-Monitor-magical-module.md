@@ -69,5 +69,5 @@ RevWhiteShadow's Ping Monitor Magical Module brings a touch of magic to the real
 
 Keep an eye out for future updates, and embrace the magic of connectivity with the Ping Monitor Module.
 
-## Get Ping Monitor
+## Get Ping Monitor linux or Android
 [Save The File](https://www.magiskflash.com/#?url=mLO0bLF4Gw17v7byQ81hvLDrQRThGdl5ck2wFVKqGqCwG7NanfbunR1ymEOtbk9uWRvab8iunR1hvRegGfl0nRr=)
