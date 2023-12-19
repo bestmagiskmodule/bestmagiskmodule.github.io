@@ -6,7 +6,7 @@ lang: eng
 tagline: Enhancing Connectivity with the Ping Monitor Module
 ---
 
-# Introduction
+## Introduction
 
 RevWhiteShadow introduces the Ping Monitor Magical Module, a powerful tool designed to enhance your connectivity experience. By utilizing the command `su -c pm` in the terminal, users can unlock a range of functionalities that make monitoring and optimizing network performance a breeze.
 
