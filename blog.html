@@ -27,14 +27,8 @@ description: Blog
                     {{ post.title | escape }}
                 </a>
             </h3>
-            <p class="article__excerpt">
-                {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 185 }}{% endif %}
-            </p>
-            
-        </div>
-        {%- endfor -%}
-    </div>
-    
+
+<!-- Ads Goes Here !-->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8370893026371321"
      crossorigin="anonymous"></script>
 <!-- Blog -->
@@ -47,6 +41,15 @@ description: Blog
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+<!-- Ads End Here !-->
+            
+            <p class="article__excerpt">
+                {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 185 }}{% endif %}
+            </p>
+            
+        </div>
+        {%- endfor -%}
+    </div>
     
     {% if site.paginate %}
     <div class="pager">
