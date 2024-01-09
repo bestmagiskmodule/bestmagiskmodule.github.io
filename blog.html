@@ -3,17 +3,21 @@ layout: blog
 title: Blog
 lang: eng
 description: Blog
-paginate: 5
 ---
 
-<section class="blog" id="blog-container">
+<section class="blog">
+    {% if site.paginate %}
     {% assign posts = paginator.posts %}
-    
+    {% else %}
+    {% assign posts = site.posts %}
+    {% endif %}
+
+
     {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
     <h2> {{ page.list_title }}</h2>
     {%- endif -%}
-    <div class="blog_border" id="blog-posts">
+    <div class="blog_border">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {%- for post in posts -%}
         <div class='blog_border'>
@@ -23,57 +27,41 @@ paginate: 5
                     {{ post.title | escape }}
                 </a>
             </h3>
-            <!-- Ad slot for each post -->
-            <div class="ad-container">
-                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8370893026371321"
-                        crossorigin="anonymous"></script>
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-8370893026371321"
-                     data-ad-slot="1860706536"
-                     data-ad-format="auto"
-                     data-full-width-responsive="true"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
             <p class="article__excerpt">
                 {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 185 }}{% endif %}
             </p>
+            
         </div>
         {%- endfor -%}
     </div>
+    
 
-    {% if paginator.next_page %}
-    <div class="load-more" id="load-more">
-        <a href="#" onclick="loadMorePosts(); return false;">Load More</a>
+    
+    {% if site.paginate %}
+    <div class="pager">
+        <ul class="pagination">
+            {%- if paginator.previous_page %}
+            <li><a href="{{ paginator.previous_page_path | relative_url }}"
+                    class="previous-page">{{ paginator.previous_page }}</a></li>
+            {%- else %}
+            <li>
+                <div class="pager-edge">•</div>
+            </li>
+            {%- endif %}
+            <li>
+                <div class="current-page">{{ paginator.page }}</div>
+            </li>
+            {%- if paginator.next_page %}
+            <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a>
+            </li>
+            {%- else %}
+            <li>
+                <div class="pager-edge">•</div>
+            </li>
+            {%- endif %}
+        </ul>
     </div>
-    {% endif %}
+    {%- endif %}
 
     {%- endif -%}
 </section>
-
-<script>
-    var page = {{ paginator.page | plus: 1 }};
-    var totalPages = {{ paginator.total_pages }};
-    
-    function loadMorePosts() {
-        if (page <= totalPages) {
-            var xhr = new XMLHttpRequest();
-            xhr.onreadystatechange = function () {
-                if (xhr.readyState === XMLHttpRequest.DONE) {
-                    var parser = new DOMParser();
-                    var doc = parser.parseFromString(xhr.responseText, 'text/html');
-                    var newPosts = doc.getElementById('blog-posts').innerHTML;
-                    document.getElementById('blog-posts').innerHTML += newPosts;
-                    page++;
-                    if (page > totalPages) {
-                        document.getElementById('load-more').style.display = 'none';
-                    }
-                }
-            };
-            xhr.open('GET', '/page/' + page);
-            xhr.send();
-        }
-    }
-</script>
