@@ -1,4 +1,4 @@
- ---
+---
 layout: blog
 title: Godspeed Mode ROR Magisk Module
 lang: eng
