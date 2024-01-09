@@ -6,14 +6,14 @@ description: Blog
 paginate: 5
 ---
 
-<section class="blog">
+<section class="blog" id="blog-container">
     {% assign posts = paginator.posts %}
     
     {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
     <h2> {{ page.list_title }}</h2>
     {%- endif -%}
-    <div class="blog_border">
+    <div class="blog_border" id="blog-posts">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {%- for post in posts -%}
         <div class='blog_border'>
@@ -44,31 +44,36 @@ paginate: 5
         {%- endfor -%}
     </div>
 
-    {% if paginator.total_pages > 1 %}
-    <div class="pager">
-        <ul class="pagination">
-            {%- if paginator.previous_page %}
-            <li><a href="{{ paginator.previous_page_path | relative_url }}"
-                    class="previous-page">{{ paginator.previous_page }}</a></li>
-            {%- else %}
-            <li>
-                <div class="pager-edge">•</div>
-            </li>
-            {%- endif %}
-            <li>
-                <div class="current-page">{{ paginator.page }}</div>
-            </li>
-            {%- if paginator.next_page %}
-            <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a>
-            </li>
-            {%- else %}
-            <li>
-                <div class="pager-edge">•</div>
-            </li>
-            {%- endif %}
-        </ul>
+    {% if paginator.next_page %}
+    <div class="load-more" id="load-more">
+        <a href="#" onclick="loadMorePosts(); return false;">Load More</a>
     </div>
-    {%- endif %}
+    {% endif %}
 
     {%- endif -%}
 </section>
+
+<script>
+    var page = {{ paginator.page | plus: 1 }};
+    var totalPages = {{ paginator.total_pages }};
+    
+    function loadMorePosts() {
+        if (page <= totalPages) {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    var parser = new DOMParser();
+                    var doc = parser.parseFromString(xhr.responseText, 'text/html');
+                    var newPosts = doc.getElementById('blog-posts').innerHTML;
+                    document.getElementById('blog-posts').innerHTML += newPosts;
+                    page++;
+                    if (page > totalPages) {
+                        document.getElementById('load-more').style.display = 'none';
+                    }
+                }
+            };
+            xhr.open('GET', '/page/' + page);
+            xhr.send();
+        }
+    }
+</script>
