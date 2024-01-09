@@ -488,18 +488,26 @@ Remember, responsible and informed usage of Magisk modules contributes to a smoo
           <h2> {{ post.title | escape }}</h2>
           <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 185 }}{% endif %}</p>
           <a href="{{ post.url | relative_url }}"><button class="btn btn-outline-secondary" type="button">Read More</button></a>
-		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8370893026371321"
-     crossorigin="anonymous"></script>
-<!-- Blog -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8370893026371321"
-     data-ad-slot="1860706536"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+		<!-- Ad slot for each post -->
+            <div class="ad-container">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8370893026371321"
+                        crossorigin="anonymous"></script>
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-8370893026371321"
+                     data-ad-slot="1860706536"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            <p class="article__excerpt">
+                {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 185 }}{% endif %}
+            </p>
+        </div>
+        {%- endfor -%}
+    </div>
         </div>
       {%- endfor -%}
    </div>   
