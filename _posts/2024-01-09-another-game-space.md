@@ -1,10 +1,11 @@
 ---
 layout: blog
 title: Game Space Magisk Module for All Android Devices
-date: 2024-01-08
+date: 2024-01-09
 lang: eng
-tagline: Enhance Your Gaming Experience with Magisk
+tagline: mgisk
 ---
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8370893026371321"
      crossorigin="anonymous"></script>
 <!-- display 2 -->
