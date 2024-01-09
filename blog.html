@@ -3,15 +3,12 @@ layout: blog
 title: Blog
 lang: eng
 description: Blog
+paginate: 5
 ---
 
 <section class="blog">
-    {% if site.paginate %}
     {% assign posts = paginator.posts %}
-    {% else %}
-    {% assign posts = site.posts %}
-    {% endif %}
-
+    
     {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
     <h2> {{ page.list_title }}</h2>
@@ -47,7 +44,7 @@ description: Blog
         {%- endfor -%}
     </div>
 
-    {% if site.paginate %}
+    {% if paginator.total_pages > 1 %}
     <div class="pager">
         <ul class="pagination">
             {%- if paginator.previous_page %}
