@@ -475,15 +475,11 @@ Remember, responsible and informed usage of Magisk modules contributes to a smoo
       </a>
     </header>
     
-	{% if site.paginate %}
-    {% assign posts = paginator.posts %}
-    {% else %}
     {% assign posts = site.posts %}
-    {% endif %}
    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
    
    <div class="container py-4">
-        {%- for post in posts -%}
+        {%- for post in posts limit:10 -%}
         <div class="h-100 p-5 bg-light border rounded-3">
           <h2> {{ post.title | escape }}</h2>
             <p class="article__excerpt">
@@ -492,19 +488,7 @@ Remember, responsible and informed usage of Magisk modules contributes to a smoo
         </div>
         {%- endfor -%}
     </div>
-
-
-
-
-		
-
-
-		
-          <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 185 }}{% endif %}</p>
-          <a href="{{ post.url | relative_url }}"><button class="btn btn-outline-secondary" type="button">Read More</button></a>
-		
-        </div>
-      {%- endfor -%}
+    
    </div>   
 </div>
 
