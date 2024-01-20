@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Unleashing Lightning Speed with Fast Charging Controller Magisk Module
+title: Game Domain Magisk Module [ ROOT & NO ROOT ]
 date: 2024-01-20
 lang: eng
 tagline: Magisk Module
