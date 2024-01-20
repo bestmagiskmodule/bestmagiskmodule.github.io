@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Unleashing Lightning Speed with Fast Charging Controller Magisk Module
-date: 2024-01-19
+date: 2024-01-20
 lang: eng
 tagline: Magisk Module
 ---
