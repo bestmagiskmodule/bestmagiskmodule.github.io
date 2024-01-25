@@ -5,7 +5,18 @@ date: 2023-12-13
 lang: eng
 tagline: Magisk Module
 ---
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8370893026371321"
+     crossorigin="anonymous"></script>
+<!-- Display 2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8370893026371321"
+     data-ad-slot="4101050007"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 ## Introduction
 
 Briefly introduce Lawnchair Magisk Module, its significance, and its popularity in the Android customization community.
