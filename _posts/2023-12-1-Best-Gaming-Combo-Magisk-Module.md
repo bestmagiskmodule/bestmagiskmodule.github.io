@@ -5,7 +5,18 @@ date: 2023-11-01
 lang: eng
 tagline: Magisk Module
 ---
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8370893026371321"
+     crossorigin="anonymous"></script>
+<!-- Display 2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8370893026371321"
+     data-ad-slot="4101050007"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 # Boost your gaming experience with the best Magisk module combo for gaming
 
 ![Image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgO7wPIM-C2qNqRDUosuGbqEAYo4OTTGeXY9pGNTCzFyAPVMb4wKFd7bT2NvqXlyn8IFyA0vWgxnt-lHbaW0MpviMZ_8x95d1PskdFWZ3cWAPUInWcDxZanKwEb6idC2RRCHM-cz12A2qPs1RTM-nri77lmhSvR0GD_dTT264BF6O7RBaAK46vOh-Uy3lgl/s320/0F4A428C-EC6C-4F4D-AD20-42C63285D481.jpeg)
