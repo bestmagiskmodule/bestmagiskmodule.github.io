@@ -5,6 +5,18 @@ date: 2023-12-2
 lang: eng
 tagline: Magisk Module
 ---
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8370893026371321"
+     crossorigin="anonymous"></script>
+<!-- Display 2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8370893026371321"
+     data-ad-slot="4101050007"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 # 10 Must-Have Magisk Modules for Your Android Device
 
 Enhance your Android experience with Magisk, the powerful and versatile rooting tool. Magisk Modules offer a way to customize and optimize your device, and here are 10 must-have modules to take your Android customization to the next level.
