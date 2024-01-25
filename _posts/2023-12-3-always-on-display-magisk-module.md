@@ -5,7 +5,18 @@ date: 2023-12-3
 lang: eng
 tagline: Magisk Module
 ---
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8370893026371321"
+     crossorigin="anonymous"></script>
+<!-- Display 2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8370893026371321"
+     data-ad-slot="4101050007"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 ## Introduction
 
 The allure of customizing your Android device reaches new heights with Magisk modules, and one module that stands out is the "Always On Display - Edge Lighting" module. In this comprehensive guide, we'll delve into the functionalities, installation process, customization options, and troubleshooting tips for this Magisk module. Let's embark on a journey to enhance your device's aesthetics and functionality.
