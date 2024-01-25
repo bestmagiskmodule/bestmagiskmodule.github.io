@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Unleashing the Power of GSMxBNG v13: An In-Depth Exploration
+title: Unleashing the Power of GSMxBNG v13 An In-Depth Exploration
 date: 2024-04-01
 lang: eng
 tagline: Elevate Your Android Experience with revWhiteShadow's Magisk Module
