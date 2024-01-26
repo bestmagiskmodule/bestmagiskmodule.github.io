@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Unleashing Efficiency Universal Doze Magisk Module by revWhiteShadow
-date: 2024-02-26
+date: 2024-01-26
 lang: eng
 tagline: Enhance Battery Life Without Compromising Performance
 ---
