@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Enhancing Android Performance with No Root Optimizer A.I. A Comprehensive Guide
-date: 2024-04-01
+date: 2024-01-28
 lang: eng
 tagline: Boost Your Device's Efficiency with Termux and revWhiteShadow's Magisk Module
 ---
