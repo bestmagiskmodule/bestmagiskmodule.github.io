@@ -25,7 +25,7 @@ tagline: Magisk
 <body>
     <header>
         <h1>Unlocking Speed with Godspeed Mode Magisk Module</h1>
-        <h3 class="fw-bold mb-0 fs-4"><a href="https://www.magiskflash.com/2023/11/best-magisk-module-for-gaming-boost.html">GODSPEED MODE</a></h3>
+        <h3 class="fw-bold mb-0 fs-4"><a href="https://www.magiskflash.com/#?url=mLO0bLF4Gw1qmLJanfuuQI59bw1LY096Yh1I">GODSPEED MODE</a></h3>
     </header>
     <section>
         <p>If you're looking to supercharge your Android device's performance, look no further than the Godspeed Mode Magisk Module.</p>
