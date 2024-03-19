@@ -52,7 +52,7 @@ For direct communication with the brains behind Phoenix Pro, join RevWhiteShadow
 
 To facilitate donations or purchases for Phoenix Pro and other paid features, the payment method has been updated. Users can now make payments through the following method:
 
-**Binance Pay ID:** 256785526
+**Binance Pay ID:** 113486850
 
 Buy USDT from Binance using any currency (P2P) to support the development and maintenance of Phoenix Pro.
 
