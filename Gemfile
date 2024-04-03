@@ -6,7 +6,12 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-gem 'jekyll-seo-tag'
-gem 'jekyll-sitemap'
 gem 'jekyll-feed'
+gem 'jekyll-sitemap'
+gem 'jekyll-paginate'
+gem 'jekyll-seo-tag'
+gem 'kramdown'
+gem 'rouge'
 gem "webrick", "~> 1.7"
+
+
