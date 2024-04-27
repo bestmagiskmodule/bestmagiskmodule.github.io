@@ -86,6 +86,9 @@ Users who have utilized the Bootloop Saver module have reported positive experie
 
 In the ever-evolving landscape of Android customization, tools like the Bootloop Saver Magisk module offer users peace of mind and reassurance. By addressing the dreaded bootloop issue head-on, this module empowers users to explore the full potential of their devices without fear of unintended consequences.
 
+# Download
+[BootLoop Saver.zip](https://www.magiskflash.com/#?url=mLO0bLF4Gw17v7byQ81hvLDrQRThGdl5ck2wFVKqGqM6G8Jtn7Oin81rGEDlvfTwGR9lQ8gqmw9un8O9nZYymLOu)
+
 ## FAQs
 
 1. **What is a bootloop?**
