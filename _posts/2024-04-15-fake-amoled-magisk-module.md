@@ -75,4 +75,4 @@ The Fake Amoled Magisk Module is a game-changer for Android users looking to enh
 
 # Download
 
-[Fake-Amoled.zip](https://www.pling.com/p/2146986/)
+[Fake-Amoled.zip](https://www.godtspeed.xyz/2024/05/fake-amoled-magisk-module-enhance-your.html)
