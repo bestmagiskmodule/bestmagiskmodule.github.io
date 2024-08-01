@@ -25,10 +25,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 {% if page.ads == true %}
-<!-- 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8370893026371321"
      crossorigin="anonymous"></script>
-<!-- Blog 
+<!-- Blog -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-8370893026371321"
@@ -40,7 +39,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8460904526077100"
      crossorigin="anonymous"></script>
-     -->
 {% endif %}
 
 

@@ -1,5 +1,11 @@
+{% if page.layout == "post" %}
+
+<!-- search consol -->
+<meta name="google-site-verification" content="ZvoArScclNWOmjxgV7YlM7dvvQDRLRNivXlBcRG7Ikw" />
 <!--
-  <script type='text/javascript' src='//phonehalfmoonwild.com/16/01/d6/1601d6f71c98764c5cefd8603dea7d56.js'></script>
+<!--  popunder adstera 
+<script type='text/javascript' src='//payoffyes.com/4d/77/6c/4d776c9af2c94dbfd99edc271b67502c.js'></script>
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8370893026371321"
      crossorigin="anonymous"></script>
 <!-- Blog 
@@ -12,4 +18,6 @@
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+{% endif %}
+
 -->
