@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-# Specify the location of the sitemap
-Sitemap: https://magiskmodule.gitlab.io/sitemap.xml
