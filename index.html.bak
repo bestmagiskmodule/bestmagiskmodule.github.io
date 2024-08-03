@@ -65,10 +65,10 @@ tagline: Magisk
     <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"/>
   </symbol>
 </svg>
-
+<!-- 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8370893026371321"
      crossorigin="anonymous"></script>
-<!-- Blog -->
+<!-- Blog 
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-8370893026371321"
@@ -78,13 +78,27 @@ tagline: Magisk
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
+-->
 <main class="container">
-<section class="py-5 text-center container">
+
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-           <h1 class="home_h1">Top 10 Best Magisk Module</h1>
-  <h3>     
+           <h1 class="home_h1">Best Magisk Modules</h1>
+           
+Magisk systemless root for Android really changed the game in terms of customizing devices. Of all the standout features, it comes with support for Magisk modules—small apps that improve functionality without touching the system partition.
+
+These modules can be considered the secret ingredients in the modification of your Android experience. They can do anything, such as boosting the battery life:
+<li>Add new features</li>
+        <li>Improve performance</li>
+        <li>Change the look and feel</li>
+        <li>And much more!</li>
+    </ul>
+Whether it's customization lovers or those who simply like to fiddle around with their devices, Magisk modules come to the rescue. Installation is pretty straightforward, and modules are easily located on GitHub, XDA forums, and so on.
+
+Of course, the best module for you will be one that caters most to your needs and interests. Experiment, explore, and make the Android experience truly yours!
+
+ <section class="py-5 text-center container">
+   <h3>     
    <p class="lead text-muted">Unlock the full potential of your Android device with the top 10 Magisk Modules, carefully curated to elevate your smartphone experience. 
      From performance enhancements and system tweaks to feature-rich additions, these modules are a testament to the power of Magisk, the ultimate tool for rooting and customization.
      Official rating based On users Choice!
@@ -109,9 +123,10 @@ tagline: Magisk
   </div>
 	
 <div class="b-example-divider"></div>
+<!--
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8370893026371321"
      crossorigin="anonymous"></script>
-<!-- Display -->
+<!-- Display 
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-8370893026371321"
@@ -121,7 +136,7 @@ tagline: Magisk
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-	
+-->	
 
   <div class="container px-4 py-5" id="icon-grid">
     <h2 class="pb-2 border-bottom">Top Rated</h2>
@@ -235,10 +250,10 @@ What makes Iconify truly unique is its open-source nature, fostering a collabora
 
 <p> </p>
 <p> </p>
-
+<!--
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8370893026371321"
      crossorigin="anonymous"></script>
-<!-- Blog -->
+<!-- Blog 
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-8370893026371321"
@@ -249,7 +264,7 @@ What makes Iconify truly unique is its open-source nature, fostering a collabora
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
     <div class="b-example-divider"></div>
-    
+  -->  
 
 <div class="b-example-divider"></div>
 <p></p>
