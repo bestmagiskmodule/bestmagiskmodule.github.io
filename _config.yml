@@ -1,0 +1,21 @@
+
+title: Best Magisk Module
+email: null
+description: "Best Magisk Module"
+baseurl: "/"
+url: "https://bestmagiskmodule.github.io"
+twitter_username: best magisk module
+github_username:  best magisk
+author: best magisk
+
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  
+    
+# Pagination 
+paginate: 10
+paginate_path: "/blog/blog-:num"

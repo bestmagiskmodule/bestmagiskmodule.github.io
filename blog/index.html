@@ -1,0 +1,31 @@
+---
+layout      : list
+title       : Blog
+description:  My Blog About Android | Magisk Modules | CUSTOM ROM | Custom kernel
+lang: en
+tagline: blog
+# override property
+color_main  : brown
+
+pagination: 
+  enabled: true
+
+# custom frontmatter for pagination
+paginate_root   : /blog
+---
+
+
+<div class="container">
+	
+<p>some notes and articles that I wrote to document what I know.</p>
+{% include pagination.html %}
+
+{% assign posts = paginator.posts %}
+
+
+{% include blog-list.html %}
+
+
+{% include pagination.html %}
+
+</div>

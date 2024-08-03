@@ -1,0 +1,31 @@
+{% capture spaceless %}
+  <!-- keywords -->
+  {% assign cats  = '' | split: '' %}
+  {% assign tags  = '' | split: '' %}
+  {% assign words = '' | split: '' %}
+  {% assign terms = '' | split: '' %}
+
+  {% if page.categories  %}
+    {% assign cats = page.categories %}
+  {% endif %}
+  
+  {% if page.tags  %}
+    {% assign tags = page.tags %}
+  {% endif %}
+
+  {% if page.keywords  %}
+    {% assign words = page.keywords %}
+  {% endif %}
+  
+  {% assign terms = cats | concat: tags  | concat: words %}
+  {% assign termssize = terms | size %}
+{% endcapture %}
+
+  <meta name="author"
+        content="{{ page.author | default: "wahyu6070" }}">
+  <meta name="description"
+        content="{{ description }}">
+{% if termssize != 0 %}
+  <meta name="keywords"
+        content="{{ terms | join: ", " }}">
+{% endif %}

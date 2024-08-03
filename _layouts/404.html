@@ -1,0 +1,20 @@
+{% include meta/html.html %}
+  <head>
+  {% include default.html %}
+  {% seo title=false %}
+  {% include framework.html %}
+	<link rel="stylesheet" href="{{ "/assets/css/blog.css" | relative_url }}">
+	<title>{{ page.title }}</title>
+	<link rel="shortcut icon" type="image/png" href="/assets/img/icon.ico">
+	</head>
+<body>
+{% include navigation.html %}
+{% include svg.html %}
+<main>
+{{ content }}
+</main>
+{% include footer.html %}
+{% include footer_js.html %}
+
+</body>
+</html>

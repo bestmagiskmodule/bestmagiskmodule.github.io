@@ -1,0 +1,45 @@
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G1X6MGG1D2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G1X6MGG1D2');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PG92HJC3');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- search consol -->
+<meta name="google-site-verification" content="ZvoArScclNWOmjxgV7YlM7dvvQDRLRNivXlBcRG7Ikw" />
+
+
+
+{% if page.ads == true %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8370893026371321"
+     crossorigin="anonymous"></script>
+<!-- Blog -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8370893026371321"
+     data-ad-slot="1860706536"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8460904526077100"
+     crossorigin="anonymous"></script>
+{% endif %}
+
+
+     
