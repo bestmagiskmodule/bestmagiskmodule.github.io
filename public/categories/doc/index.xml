@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Doc on </title>
+    <link>http://localhost:1313/categories/doc/</link>
+    <description>Recent content in Doc on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/doc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AetherSX2 development is indefinitely suspended</title>
+      <link>http://localhost:1313/blog/aethersx2-development-is-indefinitely-suspended/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/aethersx2-development-is-indefinitely-suspended/</guid>
+      <description>AetherSX2 development is indefinitely suspended. Due to neverending impersonating, complaints, demands, and now death threats, I&amp;rsquo;m done.&#xA;You can still download/use the app and it will continue to work for the forseeable future.&#xA;AetherSX2 was always meant to be a fun hobby for me, not profit driven. It doesn&amp;rsquo;t make sense to continue working on a hobby which isn&amp;rsquo;t fun anymore.&#xA;Stay safe out there, and watch out for scammers, there seems to be a lot of them.</description>
+    </item>
+    <item>
+      <title>Windows Documentation</title>
+      <link>http://localhost:1313/blog/windows-documentation/</link>
+      <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/windows-documentation/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en"  data-bs-theme="auto">
+
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Exploring the Depths of Magisk Module Recovery Tool</title>
+
+  <meta property="og:locale"
+        content="en">
+  <meta property="og:title"
+        content="Exploring the Depths of Magisk Module Recovery Tool">
+  <meta property="og:url"
+       content="http://localhost:1313/2023-12-11-magisk-module-recovery-tool/">
+  <meta property="og:site_name"
+       content="">
+  
+<meta name="color-scheme" content="light dark">
+
+<meta name="description" content="Exploring the Depths of Magisk Module Recovery Tool Introduction In the realm of Android customization, Magisk has long been hailed as a game-changer. Offering root access without compromising the system&rsquo;s integrity, Magisk has become the preferred choice for enthusiasts seeking to push the boundaries of what their devices can do. Complementing this powerhouse is the Magisk Manager Recovery Tool, a robust toolset developed by the talented team at Pzqqt.">
+<meta property="og:description" content="Exploring the Depths of Magisk Module Recovery Tool Introduction In the realm of Android customization, Magisk has long been hailed as a game-changer. Offering root access without compromising the system&rsquo;s integrity, Magisk has become the preferred choice for enthusiasts seeking to push the boundaries of what their devices can do. Complementing this powerhouse is the Magisk Manager Recovery Tool, a robust toolset developed by the talented team at Pzqqt." />
+
+<meta property="og:site_name" content="Exploring the Depths of Magisk Module Recovery Tool" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Exploring the Depths of Magisk Module Recovery Tool" />
+
+
+<meta name="author"  content="wahyu6070"><meta property="og:locale"  content="en">
+  <meta property="og:title"    content="Exploring the Depths of Magisk Module Recovery Tool">
+  
+  <link rel="canonical" href="http://localhost:1313/2023-12-11-magisk-module-recovery-tool/" />
+  <meta property="og:url"   content="http://localhost:1313/2023-12-11-magisk-module-recovery-tool/">
+  <meta property="og:site_name"   content="">
+<script type="application/ld+json"> {"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"wahyu6070"},"description":"Exploring the Depths of Magisk Module Recovery Tool Introduction In the realm of Android customization, Magisk has long been hailed as a game-changer. Offering root access without compromising the system\u0026rsquo;s integrity, Magisk has become the preferred choice for enthusiasts seeking to push the boundaries of what their devices can do. Complementing this powerhouse is the Magisk Manager Recovery Tool, a robust toolset developed by the talented team at Pzqqt.","headline":"Exploring the Depths of Magisk Module Recovery Tool","name":"Exploring the Depths of Magisk Module Recovery Tool","url":"http:\/\/localhost:1313\/2023-12-11-magisk-module-recovery-tool\/"}</script>
+
+
+
+<meta name="twitter:title" content="Exploring the Depths of Magisk Module Recovery Tool">
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+
+<link rel="stylesheet" type="text/css" href="/css/dark.css">
+
+<script src="/js/color-modes.js"></script>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+<meta name="google-site-verification" content="6uR7rX8jaRP-StnKwsoF2X_Br7FdlrNLR6UWp9yQtO8" />
+
+<meta name="yandex-verification" content="86e4ecd70a01a733" />
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SP6SP4M9D8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SP6SP4M9D8');
+</script>
+
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TBKFRL8B');</script>
+
+
+<style>
+@media only screen and (max-width: 600px) {
+  
+		.tddd {
+		 font-size: 15px;
+		 }
+		 .tdcc {
+		 font-size: 8px;
+		 }
+}
+</style>
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TBKFRL8B"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+
+<nav class="navbar navbar-expand-md bg-body-tertiary fixed-top rounded">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://aethersx2.gitlab.io"> <img class="ICON_MAIN" src="/img/icon2.png" alt="Litegapps Icon"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="https://aethersx2.gitlab.io">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/download">Download</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/game">Game</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blog">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/config">Config</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+  </div>
+
+</nav>
+
+  
+
+<div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+              id="bd-theme"
+              type="button"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+              aria-label="Toggle theme (auto)">
+        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+            Light
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+            Dark
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+            Auto
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+      </ul>
+</div>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+      </symbol>
+</svg>
+
+
+
+
+
+
+
+
+<main class="container-fluid">
+
+    <article>
+      <header>
+        <h1>Exploring the Depths of Magisk Module Recovery Tool</h1>
+      </header>
+      <!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h1 id="exploring-the-depths-of-magisk-module-recovery-tool">Exploring the Depths of Magisk Module Recovery Tool</h1>
+<h2 id="introduction">Introduction</h2>
+<p>In the realm of Android customization, Magisk has long been hailed as a game-changer. Offering root access without compromising the system&rsquo;s integrity, Magisk has become the preferred choice for enthusiasts seeking to push the boundaries of what their devices can do. Complementing this powerhouse is the Magisk Manager Recovery Tool, a robust toolset developed by the talented team at <a href="https://github.com/Pzqqt">Pzqqt</a>.</p>
+<h3 id="unveiling-the-essence">Unveiling the Essence</h3>
+<p>The Magisk Manager Recovery Tool extends the capabilities of the Magisk ecosystem, providing users with advanced recovery options and a comprehensive suite of features. As we embark on this exploration, we&rsquo;ll delve deep into the various facets of this tool, uncovering how it revolutionizes the Android customization experience.</p>
+<h2 id="chapter-1-the-foundation">Chapter 1: The Foundation</h2>
+<h3 id="understanding-the-magisk-manager-recovery-tool">Understanding the Magisk Manager Recovery Tool</h3>
+<p>At its core, the Magisk Manager Recovery Tool is designed to enhance the recovery process for Android devices. Recovery is a crucial aspect, especially for users who venture into the world of custom ROMs, mods, and tweaks. This tool becomes the guiding light, offering an array of features that not only simplify recovery tasks but elevate them to new heights.</p>
+<h4 id="key-features">Key Features</h4>
+<ol>
+<li>
+<p><strong>Advanced System Recovery:</strong></p>
+<ul>
+<li>Magisk Manager Recovery Tool redefines system recovery. It goes beyond the conventional options, providing users with advanced recovery capabilities, ensuring a smooth and efficient recovery process.</li>
+</ul>
+</li>
+<li>
+<p><strong>Backup and Restore Excellence:</strong></p>
+<ul>
+<li>One of the standout features is the ability to create comprehensive backups. This isn&rsquo;t limited to system files; it encompasses Magisk modules, app data, and more. Users can restore their devices to a specific state, adding a layer of security to their customization endeavors.</li>
+</ul>
+</li>
+<li>
+<p><strong>Intuitive Module Management:</strong></p>
+<ul>
+<li>Managing Magisk modules becomes a breeze with this tool. Users can install, uninstall, and manage modules directly from the recovery environment. This streamlines the customization process, allowing users to tailor their devices to their preferences effortlessly.</li>
+</ul>
+</li>
+<li>
+<p><strong>User-Friendly Interface:</strong></p>
+<ul>
+<li>Navigating through recovery options can be daunting, especially for those new to Android customization. Magisk Manager Recovery Tool addresses this by providing a user-friendly interface. It bridges the gap between powerful features and accessibility, making it an inclusive tool for users of varying expertise.</li>
+</ul>
+</li>
+</ol>
+<h4 id="installation-guide">Installation Guide</h4>
+<p>To harness the power of Magisk Manager Recovery Tool, users can follow a straightforward installation process.</p>
+<ol>
+<li>
+<p><strong>Download the Tool:</strong></p>
+<ul>
+<li>Visit the official <a href="https://github.com/Pzqqt/Magisk_Manager_Recovery_Tool">GitHub repository</a> to download the latest version of the Magisk Manager Recovery Tool.</li>
+</ul>
+</li>
+<li>
+<p><strong>Flash via Custom Recovery:</strong></p>
+<ul>
+<li>Ensure your device has a custom recovery installed, such as TWRP (Team Win Recovery Project).</li>
+<li>Boot into recovery mode.</li>
+<li>Flash the Magisk Manager Recovery Tool zip file using the custom recovery.</li>
+</ul>
+</li>
+<li>
+<p><strong>Explore the Features:</strong></p>
+<ul>
+<li>Once installed, users can dive into the enhanced recovery options and features offered by Magisk Manager Recovery Tool. Familiarizing oneself with the interface and functionalities sets the stage for a seamless customization journey.</li>
+</ul>
+</li>
+</ol>
+<h2 id="chapter-2-the-backbone---recovery-reinvented">Chapter 2: The Backbone - Recovery Reinvented</h2>
+<h3 id="revolutionizing-system-recovery"><strong>Revolutionizing System Recovery</strong></h3>
+<p>System recovery is a critical aspect of Android customization, and Magisk Manager Recovery Tool reimagines this process. Let&rsquo;s explore the tools and functionalities that make this Magisk module an indispensable asset for users who want to recover their devices with finesse.</p>
+<h4 id="extended-recovery-options"><em>Extended Recovery Options:</em></h4>
+<p>Magisk Manager Recovery Tool introduces extended recovery options, elevating the traditional recovery environment. Users gain access to a plethora of tools, from partition management to system file exploration, providing an unprecedented level of control over their devices.</p>
+<h4 id="nandroid-backups"><em>Nandroid Backups:</em></h4>
+<p>Taking a step beyond conventional backups, the tool facilitates Nandroid backups. These comprehensive backups capture the entire state of the system, including system files, apps, and data. Users can create snapshots of their devices, ensuring they have a fail-safe in case of any unforeseen issues.</p>
+<h4 id="partition-management"><em>Partition Management:</em></h4>
+<p>For advanced users, partition management is a crucial aspect of customization. Magisk Manager Recovery Tool streamlines this process, allowing users to manage partitions effortlessly. From resizing to formatting, the tool simplifies complex tasks, making them accessible to a broader audience.</p>
+<h3 id="mastering-backup-and-restore"><strong>Mastering Backup and Restore</strong></h3>
+<p>Backup and restore functionalities are the pillars of a robust customization journey. Magisk Manager Recovery Tool amplifies these pillars, giving users unparalleled control over their device&rsquo;s state.</p>
+<h4 id="comprehensive-backups"><em>Comprehensive Backups:</em></h4>
+<p>The tool doesn&rsquo;t stop at backing up system files. It extends its reach to Magisk modules, app data, and even individual app settings. This comprehensive approach to backups ensures that users can restore their devices to a specific configuration, down to the smallest details.</p>
+<h4 id="selective-restoration"><em>Selective Restoration:</em></h4>
+<p>Not every customization experiment goes as planned. Magisk Manager Recovery Tool acknowledges this reality by offering selective restoration. Users can cherry-pick elements from their backups, restoring only what they need. This granular control minimizes downtime and maximizes flexibility.</p>
+<h4 id="cloud-integration"><em>Cloud Integration:</em></h4>
+<p>In the era of cloud computing, the tool embraces this trend by offering cloud integration for backups. Users can securely store their backups in the cloud, providing an additional layer of redundancy. This feature caters to users who switch between devices or need a seamless recovery experience across multiple devices.</p>
+<h2 id="chapter-3-module-mastery---elevating-customization">Chapter 3: Module Mastery - Elevating Customization</h2>
+<h3 id="advanced-module-management"><strong>Advanced Module Management</strong></h3>
+<p>Magisk Manager Recovery Tool isn&rsquo;t just about recovery; it&rsquo;s a comprehensive toolbox for Magisk modules. Let&rsquo;s explore how it elevates the management of Magisk modules to new heights.</p>
+<h4 id="seamless-module-installation"><em>Seamless Module Installation:</em></h4>
+<p>Installing Magisk modules becomes a seamless experience with the tool. Users can browse and install modules directly from the recovery environment, eliminating the need to reboot into the system to apply changes. This streamlined process saves time and enhances user convenience.</p>
+<h4 id="real-time-module-monitoring"><em>Real-time Module Monitoring:</em></h4>
+<p>The tool provides real-time monitoring of installed Magisk modules. Users can track the performance impact of each module, identify potential conflicts, and make informed decisions about their module configuration. This level of transparency empowers users to optimize their module setup effectively.</p>
+<h4 id="granular-module-control"><em>Granular Module Control:</em></h4>
+<p>Magisk Manager Recovery Tool offers granular control over Magisk modules. Users can enable or disable modules on the fly, experiment with different configurations, and troubleshoot issues directly from the recovery environment. This level of control contributes to a dynamic and responsive customization experience.</p>
+<h3 id="user-friendly-interface---bridging-the-gap"><strong>User-Friendly Interface - Bridging the Gap</strong></h3>
+<h4 id="navigating-the-unknown"><em>Navigating the Unknown:</em></h4>
+<p>The world of Android customization can be intimidating for newcomers. Magisk Manager Recovery Tool bridges this gap by providing a user-friendly interface. Navigating through advanced recovery options, module management, and customization settings becomes intuitive, ensuring that users of all levels of expertise can harness the full potential of the tool.</p>
+<h4 id="visual-feedback"><em>Visual Feedback:</em></h4>
+<p>Visual cues and feedback mechanisms are integrated into the interface, providing users with clear indications of ongoing processes and the status of their customization actions. This visual feedback enhances the user experience, making the tool approachable and user-friendly.</p>
+<h2 id="chapter-4-installation-and-exploration-continues">Chapter 4: Installation and Exploration Continues</h2>
+<h3 id="guiding-users-through-installation"><strong>Guiding Users Through Installation</strong></h3>
+<h4 id="troubleshooting-installation"><em>Troubleshooting Installation:</em></h4>
+<p>While the installation process is generally straightforward, Magisk Manager Recovery Tool anticipates potential challenges. The tool incorporates troubleshooting mechanisms to guide users through common installation issues, ensuring a smooth setup process.</p>
+<h4 id="community-support"><em>Community Support:</em></h4>
+<p>For users who seek assistance or want to share their experiences, the tool connects them with a vibrant community. Online forums, discussion threads, and user-generated guides contribute to a collaborative environment where users can learn from each other and overcome customization hurdles.</p>
+<h3 id="embarking-on-the-exploration-journey"><strong>Embarking on the Exploration Journey</strong></h3>
+<h4 id="unlocking-potential"><em>Unlocking Potential:</em></h4>
+<p>With Magisk Manager Recovery Tool installed, users unlock the full potential of their devices. The tool is not merely a utility; it&rsquo;s an enabler for creativity and exploration. Users are encouraged to experiment, customize, and push the limits of what their devices can achieve.</p>
+<h4 id="staying-updated"><em>Staying Updated:</em></h4>
+<p>The Android customization landscape is dynamic, with new modules, features, and optimizations emerging regularly. Magisk Manager Recovery Tool encourages users to stay updated by regularly checking the official <a href="https://github.com/Pzqqt/Magisk_Manager_Recovery_Tool">GitHub repository</a>. Here, users can find the latest releases, changelogs, and community discussions.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>As we conclude this comprehensive exploration of Magisk Manager Recovery Tool, it&rsquo;s evident that this Magisk module transcends the conventional boundaries of Android customization. Its advanced recovery options, meticulous backup and restore functionalities, and module management prowess make it an indispensable tool for enthusiasts seeking to tailor their devices to their unique preferences.</p>
+<p>Magisk Manager Recovery Tool is not just a utility; it&rsquo;s an invitation to embark on a journey of exploration and creativity. It&rsquo;s a testament to the vibrant and ever-evolving community that thrives on pushing the boundaries of what&rsquo;s possible in the Android customization realm.</p>
+<p>To those venturing into the world of Magisk Manager Recovery Tool, may your customization journey be rich with discoveries, optimizations, and the joy of crafting a device that truly reflects your unique style and preferences.</p>
+
+    </article>
+    <ul>
+      
+      
+    </ul>
+</main>
+
+
+
+
+
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/proper.js"></script>
+<script type="text/javascript" src="/js/bootstrap.js"></script>
+<hr>
+
+ <div class="FMID">
+ 	<span><a href="https://aethersx2.gitlab.io"><img src="/img/icon.png" alt="icon sosmed svg" class="ICON"></img></a></span>
+	<span><a href="https://youtube.com/channel/UCoqHuQ6CssiZCk3q4haOLUQ"><img src="/img/media/youtube.png" alt="icon sosmed svg" class="ICON"></img></a></span>
+	<span><a href="https://facebook.com/groups/332597627343236/"><img src="/img/media/facebook.png" alt="icon sosmed svg" class="ICON"></img></a></span>
+	<span><a href="https://t.me/aethersx2_emulator"><img src="/img/media/telegram.png" alt="icon sosmed svg" class="ICON"></img></a></span>
+ </div>
+
+<hr>
+<footer>
+	<div class="FOOTERR">
+			
+		<div class="p_footer MID"><a href="https://androidsmart.github.io">Android Smart</a></div>
+		<div class="p_footer MID"><a href="https://androidroot.gitlab.io">Android Root</a></div>
+		<div class="p_footer MID"><a href="https://ppsspp.gitlab.io">PPSSPP Emulator</a></div>
+		<div class="p_footer MID"><a href="https://dolphin27.gitlab.io">Dolphin Emulator</a></div>
+	<div class="p_footer MID"><a href="https://litegapps.github.io">LiteGapps</a></div>
+     <p>Copyright &copy; 2024 Aethersx2.gitlab.io</p>
+	</div>
+</footer>
+
+</body>
+</html>
+

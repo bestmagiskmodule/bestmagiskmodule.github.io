@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rom on </title>
+    <link>http://localhost:1313/categories/rom/</link>
+    <description>Recent content in Rom on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 21 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/rom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devil May Cry 3</title>
+      <link>http://localhost:1313/game/devil-may-cry-3/</link>
+      <pubDate>Tue, 21 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/game/devil-may-cry-3/</guid>
+      <description>Devil May Cry 3: Dante&amp;rsquo;s Awakening, originally released for the PlayStation 2 in 2005, is a stylish action game developed and published by Capcom. It&amp;rsquo;s the prequel to the critically acclaimed Devil May Cry series, delving into the origin story of the series&amp;rsquo; iconic protagonist, Dante, a half-demon, half-human monster hunter. The game throws players into a thrilling adventure as Dante confronts his power-hungry twin brother, Vergil, who seeks to open a portal to the demonic world, Temen-ni-gru.</description>
+    </item>
+  </channel>
+</rss>

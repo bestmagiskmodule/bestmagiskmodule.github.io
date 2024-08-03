@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Config on </title>
+    <link>http://localhost:1313/config/</link>
+    <description>Recent content in Config on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Aug 2024 12:46:15 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/config/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Settings Config For Mediatek Helio G80</title>
+      <link>http://localhost:1313/config/mediatek-helio-g80/</link>
+      <pubDate>Thu, 01 Aug 2024 12:46:15 +0700</pubDate>
+      <guid>http://localhost:1313/config/mediatek-helio-g80/</guid>
+      <description>Configuring AetherSX2 on Helio G80: A General Guide Disclaimer: Optimal settings can vary greatly depending on the specific game you&amp;rsquo;re playing. These are general guidelines to get you started.&#xA;Understanding the Helio G80 The Helio G80 is a capable mid-range processor, but it has its limitations. For smooth PS2 emulation, you&amp;rsquo;ll need to balance performance and visual quality.&#xA;General Configuration Tips CPU Settings:&#xA;Cores: Experiment with different core counts based on game demands.</description>
+    </item>
+    <item>
+      <title>Settings Config For Mediatek Helio G99</title>
+      <link>http://localhost:1313/config/mediatek-helio-g99/</link>
+      <pubDate>Wed, 31 Jul 2024 12:46:15 +0700</pubDate>
+      <guid>http://localhost:1313/config/mediatek-helio-g99/</guid>
+      <description>Configuring AetherSX2 on Helio G99: A General Guide Disclaimer: Optimal settings can vary greatly depending on the specific game you&amp;rsquo;re playing. These are general recommendations based on common practices.&#xA;Understanding Your Device Before diving into settings, it&amp;rsquo;s essential to know your device&amp;rsquo;s full specifications. This includes:&#xA;CPU: Helio G99 GPU: Mali-G57 MC2 RAM: (e.g., 4GB, 6GB, 8GB) Storage: (e.g., 64GB, 128GB) Android version: General AetherSX2 Settings While specific settings will depend on the game, here are some common starting points:</description>
+    </item>
+    <item>
+      <title>Settings Config For Mediatek Helio G85</title>
+      <link>http://localhost:1313/config/mediatek-helio-g85/</link>
+      <pubDate>Tue, 30 Jul 2024 12:46:15 +0700</pubDate>
+      <guid>http://localhost:1313/config/mediatek-helio-g85/</guid>
+      <description>Configuring AetherSX2 for Helio G85: A General Guide Disclaimer: Optimal settings can vary greatly depending on the specific game you&amp;rsquo;re playing. These are general guidelines. Experimentation is key to finding the best configuration for your device and game.&#xA;Understanding Your Limitations The Helio G85 is a capable chipset, but it&amp;rsquo;s important to recognize its limitations compared to higher-end processors. Expect to make compromises in terms of graphics quality and performance, especially for demanding PS2 games.</description>
+    </item>
+    <item>
+      <title>Settings Config For Snapdragon 680</title>
+      <link>http://localhost:1313/config/snapdragon-680/</link>
+      <pubDate>Tue, 16 Jul 2024 12:46:15 +0700</pubDate>
+      <guid>http://localhost:1313/config/snapdragon-680/</guid>
+      <description>The Snapdragon 680 is a capable mid-range chipset, but to get the best performance out of AetherSX2 (a powerful PS2 emulator for Android), some fine-tuning is required. Here&amp;rsquo;s how to optimize your settings:&#xA;Understanding the Snapdragon 680 CPU: The 680 features 4x Kryo 265 Gold (Cortex-A73) cores and 4x Kryo 265 Silver (Cortex-A53) cores. It&amp;rsquo;s designed for a balance of power and efficiency. GPU: The Adreno 610 handles graphics processing. While decent, it&amp;rsquo;s not as powerful as the GPUs in high-end phones.</description>
+    </item>
+    <item>
+      <title>Settings Config For Snapdragon 4 Gen 2</title>
+      <link>http://localhost:1313/config/snapdragon-4-gen-2/</link>
+      <pubDate>Fri, 05 Jul 2024 12:46:15 +0700</pubDate>
+      <guid>http://localhost:1313/config/snapdragon-4-gen-2/</guid>
+      <description>Aethersx2 is a powerful PS2 emulator for Android devices, but getting optimal performance on a Snapdragon 4 Gen 2 chipset can be tricky due to its lower-end specifications. Here&amp;rsquo;s a suggested configuration tailored for your device:&#xA;System Settings:&#xA;CPU: EE Cyclerate: Try both options (1 and 2) to see which works better. VU Cyclerate: Similar to EE Cyclerate, experiment to find the ideal setting. Graphics: Renderer: Vulkan is generally preferred, but OpenGL may be better for older devices.</description>
+    </item>
+    <item>
+      <title>Settings Config For Snapdragon 730G</title>
+      <link>http://localhost:1313/config/snapdragon-730g/</link>
+      <pubDate>Thu, 04 Jul 2024 12:46:15 +0700</pubDate>
+      <guid>http://localhost:1313/config/snapdragon-730g/</guid>
+      <description>AetherSX2 Configuration Guide for Snapdragon 730G: Optimize Your PS2 Emulation Experience The Snapdragon 730G, while a capable mid-range processor, requires careful configuration to achieve optimal performance in AetherSX2, the powerful PS2 emulator for Android. This guide will walk you through the settings to strike a balance between visual quality and smooth gameplay.&#xA;Understanding AetherSX2 Settings&#xA;AetherSX2 offers a plethora of settings, but focusing on the following key areas will make the most significant impact on your experience:</description>
+    </item>
+    <item>
+      <title>Settings Config For Snapdragon 7&#43; Gen 3</title>
+      <link>http://localhost:1313/config/snapdragon-7&#43;-gen-3/</link>
+      <pubDate>Sun, 09 Jun 2024 12:46:15 +0700</pubDate>
+      <guid>http://localhost:1313/config/snapdragon-7&#43;-gen-3/</guid>
+      <description>AetherSX2 Configuration for Snapdragon 7+ Gen 2: Optimized Settings&#xA;The Snapdragon 7+ Gen 2 is a powerful mid-range chipset capable of running many PS2 games smoothly on AetherSX2. However, optimal settings can vary depending on the specific game and your device&amp;rsquo;s capabilities. Here&amp;rsquo;s a suggested starting point for your AetherSX2 configuration:&#xA;System:&#xA;Fast Boot: Enabled (for faster game loading) Enable Logging: Disabled (unless troubleshooting) Graphics:&#xA;Renderer: Vulkan (usually the best option) EE Cyclerate: 1 VU Cyclerate: 1 Renderer: OpenGL (if Vulkan causes issues) Upscaling: 2x or 3x (experiment to find the best balance between visuals and performance) Anisotropic Filtering: 2x or 4x (depending on your preference and device capabilities) Enable Widescreen Patches: Enabled (for games that support it) Audio:</description>
+    </item>
+    <item>
+      <title>Settings Config For Snapdragon 8s Gen 3</title>
+      <link>http://localhost:1313/config/snapdragon-8s-gen-3/</link>
+      <pubDate>Sun, 09 Jun 2024 12:46:15 +0700</pubDate>
+      <guid>http://localhost:1313/config/snapdragon-8s-gen-3/</guid>
+      <description>Certainly! Here&amp;rsquo;s an expanded take on configuring AetherSX2 for your Snapdragon 8 Gen 3 device, going beyond the initial suggestions:&#xA;Understanding Your Goals:&#xA;Balance vs. Performance: Prioritize a smooth experience with consistent frame rates (e.g., 30 FPS) or target higher resolutions and graphical fidelity (potentially sacrificing some frame rate stability). Game Specific Needs: Research known issues or optimizations for the specific PS2 games you want to play. Some games might benefit from specific settings tweaks in AetherSX2.</description>
+    </item>
+    <item>
+      <title>Settings Config For Snapdragon 8 Gen 1</title>
+      <link>http://localhost:1313/config/snapdragon-8-gen-1/</link>
+      <pubDate>Sun, 21 Apr 2024 12:46:15 +0700</pubDate>
+      <guid>http://localhost:1313/config/snapdragon-8-gen-1/</guid>
+      <description>Certainly! Configuring AetherSX2 for the Snapdragon 8 Gen 1 processor can enhance your PlayStation 2 (PS2) emulation experience on Android. Here are some recommendations based on community feedback and best practices:&#xA;Game-Specific Settings:&#xA;Metal Gear Solid 2 (MGS2): To avoid game-breaking issues later in the game, play MGS2 in OpenGL mode with blending accuracy set to &amp;ldquo;high&amp;rdquo; and Downloads set to **&amp;ldquo;Accurate&amp;rdquo;**⁴. Shadow of the Colossus: If you experience slowdowns during boss fights, try adjusting the following settings: Reset to Safe Settings: Start by resetting all settings to default.</description>
+    </item>
+  </channel>
+</rss>

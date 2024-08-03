@@ -1,0 +1,25 @@
+baseurl = "https://aethersx2.gitlab.io"
+contentdir    = "content"
+layoutdir     = "layouts"
+publishdir    = "public"
+languageCode = "en"
+resourceDir = "../resources"
+DefaultContentLanguage = "en"
+Paginate     = 700
+
+PygmentsCodeFences = true
+PygmentsStyle      = "monokai"
+
+
+buildFuture = true
+
+[author]
+     name = "wahyu6070"
+     
+[sitemap]
+  changefreq = "always"
+  priority = 0.8
+  filename = "sitemap.xml"
+[permalinks]
+  news     = ":section/:year/:month/:day/:slug"
+  

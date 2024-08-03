@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aethersx2 on </title>
+    <link>http://localhost:1313/categories/aethersx2/</link>
+    <description>Recent content in Aethersx2 on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/aethersx2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Call Of Duty 3</title>
+      <link>http://localhost:1313/game/call-of-duty/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/game/call-of-duty/</guid>
+      <description>Call of Duty 3: A Blast from the Past on the PlayStation 2 Call of Duty 3, released in 2006, brought the popular first-person shooter franchise to the PlayStation 2. Developed by Treyarch and published by Activision, it marked the third major installment in the Call of Duty series.&#xA;Campaign Focuses on World War II Unlike some later entries in the series that ventured into modern warfare, Call of Duty 3 stayed grounded in the historical setting of World War II.</description>
+    </item>
+    <item>
+      <title>Tekken 5</title>
+      <link>http://localhost:1313/game/tekken-5/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/game/tekken-5/</guid>
+      <description>Tekken 5, released in 2004 for the PlayStation 2 (PS2), is the fifth installment in the popular Tekken fighting game series developed by Namco. It builds upon the success of its predecessors, offering a refined fighting system, an expanded character roster, and a captivating story mode. Tekken 5 marked a significant turning point for the series, introducing several new gameplay mechanics and features that continue to influence Tekken games today.</description>
+    </item>
+    <item>
+      <title>Need for Speed Underground 2</title>
+      <link>http://localhost:1313/game/need-for-speed-underground-2/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/game/need-for-speed-underground-2/</guid>
+      <description>Need for Speed Underground 2 is a legendary racing game that captured the hearts of gamers in the mid-2000s. This sequel to the highly successful Need for Speed Underground took the open-world street racing experience to new heights, and the PlayStation 2 version remains a beloved classic.&#xA;A World of Customization and Competition Underground 2 offered an unparalleled level of customization, allowing players to transform ordinary cars into eye-catching, high-performance machines.</description>
+    </item>
+  </channel>
+</rss>
