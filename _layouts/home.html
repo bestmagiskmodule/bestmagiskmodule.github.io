@@ -1,0 +1,28 @@
+{% include meta/html.html %}
+<head>
+
+<title>{{ page.title }}</title>
+<link rel="shortcut icon" type="image/png" href="/assets/img/icon.ico">
+{% include default.html %}
+{% include ads_head.html %} 
+{% seo title=false %}
+{% include framework.html %}
+<link rel="stylesheet" href="{{ "/assets/css/home.css" | relative_url }}">
+{% include google_head.html %}
+</head>
+<body>
+
+{% include google_body.html %}
+{% include navigation.html %}
+{% include ads_body.html %}
+{% include svg.html %}
+<main>
+<article>
+{{ content }}
+</article>
+{% include ads_footer.html %}
+{% include footer.html %}
+{% include footer_js.html %}
+</main>
+</body>
+</html>
