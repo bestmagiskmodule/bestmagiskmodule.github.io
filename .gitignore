@@ -1,6 +1,18 @@
 _site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
 public
+node_modules
+resources
+.sass-cache
+.jekyll-metadata
+*.swp
+*.swo
+
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
