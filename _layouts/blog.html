@@ -1,0 +1,46 @@
+{% include meta/html.html %}
+<head>
+<title>{{ page.title }}</title>
+<link rel="shortcut icon" type="image/png" href="/assets/img/icon.ico">
+{% include default.html %}
+{% include ads_head.html %} 
+{% seo title=false %}
+{% include framework.html %}
+<link rel="stylesheet" href="{{ "/assets/css/blog.css" | relative_url }}">
+{% include google_head.html %}
+</head>
+<body>
+{% include google_body.html %}
+{% include navigation.html %}
+{% include ads_body.html %}
+{% include svg.html %}
+<main class="container">
+<header>
+<h1>{{ page.title }}</h1>
+<p>{{ page.date | date_to_string }}</p>
+</header>
+
+<article>
+{{ content }}
+</article>
+{% comment %}
+<hr style="text-align: none !important; padding: 0px !important;">
+	
+<h2 style="padding: 10px;">Recomended For You</h2>
+{%- for post in site.posts limit:5 -%}
+<p class="pfooter"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></p>
+{%- endfor -%}
+
+{% endcomment %}
+</main>
+
+
+
+{% include ads_footer.html %}
+{% include footer.html %}
+{% include footer_js.html %}
+</body>
+</html>
+
+
+

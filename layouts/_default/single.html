@@ -1,0 +1,19 @@
+{{ define "main" }}
+<main class="container-fluid">
+
+    <article>
+      <header>
+        <h1>{{ .Title }}</h1>
+      </header>
+      {{ .Content }}
+    </article>
+    <ul>
+      <!-- Ranges through content/posts/*.md -->
+      {{ range .Pages }}
+        <li>
+          <a href="{{ .RelPermalink }}"> {{ .LinkTitle }}</a>
+        </li>
+      {{ end }}
+    </ul>
+</main>
+{{ end }}

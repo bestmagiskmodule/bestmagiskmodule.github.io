@@ -1,38 +1,25 @@
-baseurl = "https://litegapps.github.io"
-title = "LiteGapps - Custom Google Apps Android"
+baseurl = "https://aethersx2.gitlab.io"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
 languageCode = "en"
 resourceDir = "../resources"
 DefaultContentLanguage = "en"
-Paginate     = 10
-theme        = "bootstrap-5"
+Paginate     = 700
 
 PygmentsCodeFences = true
 PygmentsStyle      = "monokai"
 
-[markup]
-  [goldmark]
-    [renderer]
-      unsafe= true # Allows you to write raw html in your md files
 
 buildFuture = true
+
 [author]
-     name = "litegapps"
+     name = "wahyu6070"
      
 [sitemap]
   changefreq = "always"
   priority = 0.8
   filename = "sitemap.xml"
 [permalinks]
-   changelog     = ":section/:year/:slug"
-   blog          = ":section/:year:month/:slug"
+  news     = ":section/:year/:month/:day/:slug"
   
-[params]
-  text_color = ""
-  author = ""
-  favicon = ""
-  site_logo = ""
-  description = "LiteGapps is a custom Google Apps on the Android operating system, an open source project that focuses on small, efficient, and comprehensive."
-  recent_posts_number = 3
