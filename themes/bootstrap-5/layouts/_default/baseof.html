@@ -1,19 +1,18 @@
 {{ partial "meta/main.html" . }}
 <head>
 {{ partial "head.html" . }}
-
 </head>
 <body>
-{{ partial "navbar.html" . }}
-
-<main>
-
-	{{ block "main" . }}
-	{{ end }}
-
-</main>
-{{ partial "js.html" . }} 
+{{ partial "navbar.html"  . }}
+{{ partial "adspop.html" . }}
+{{ block "main" . }}
+{{ .Content }}
+{{ end }}
 {{ partial "footer.html" }}
 </body>
 </html>
 
+
+
+
+    

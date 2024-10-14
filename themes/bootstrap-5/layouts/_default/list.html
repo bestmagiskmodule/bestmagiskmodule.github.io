@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="container">
+    <h1>Categories</h1>
+    <ul>
+    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+        <li><a href="{{ $taxonomy.Page.Permalink }}">{{ $name }} ({{ $taxonomy.Count }})</a></li>
+    {{ end }}
+    </ul>
+</div>
+        {{ if or (eq .Params.ads "true") (and (not .Params.ads) (eq site.Params.ads "true")) }}
+    {{ partial "google/adsense.html" . }}
+{{ end }}
+{{ end }}
+ 

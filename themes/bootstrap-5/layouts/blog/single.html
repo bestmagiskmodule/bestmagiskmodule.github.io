@@ -1,16 +1,11 @@
-{{ partial "meta/main.html" . }}
-<head>
-{{ partial "head.html" . }}
-{{ partial "adspop.html" . }}
-</head>
-<body>
-{{ partial "navbar.html" . }}
-<main class="container">
-<article>
-{{ .Content }}
-</article>
-</main>
-{{ partial "js.html" . }} 
-{{ partial "footer.html" }}
-</body>
-</html>
+{{ define "blog" }}
+{{ partial "single.html" . }}
+{{ partial "related-posts.html" . }}
+            {{ partial "next-prev.html" . }}
+{{ if or (eq .Params.ads "true") (and (not .Params.ads) (eq site.Params.ads "true")) }}
+    {{ partial "google/adsense.html" . }}
+   
+{{ end }}
+{{ end }}
+
+
