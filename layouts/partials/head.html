@@ -1,0 +1,19 @@
+{{ partial "meta/html.html" . }}
+<title>{{ .Page.Title | default .Site.Title }}</title>
+{{ partial "meta/opengraph.html" . }}
+{{ partial "meta/seo.html" . }}
+{{ partial "meta/twitter.html" . }}
+{{ partial "framework.html" . }}
+
+<link rel="shortcut icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}" />
+
+{{ partial "google/searchconsole.html" . }}
+{{ partial "google/analytics.html" . }}
+{{ partial "google/tagmanager_head.html" . }}
+{{ partial "style.html" . }}
+{{ if and .Params.ads "true" }}
+	{{ partial "google/adsense.html" . }}
+{{ end}}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1769942773682600"
+     crossorigin="anonymous"></script>
+{{ partial "ads/head.html" . }}

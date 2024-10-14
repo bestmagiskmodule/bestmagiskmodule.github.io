@@ -1,0 +1,34 @@
+    <!-- Navigation for previous and next posts -->
+    <nav aria-label="Post navigation">
+        <ul class="pagination justify-content-between">
+        
+                    {{ if .Next }}
+            <li class="page-item">
+                <a class="page-link" href="{{ .Next.Permalink }}" aria-label="Next post">
+                  &laquo;  {{ .Next.Title }} 
+                </a>
+            </li>
+            {{ else }}
+            <li class="page-item disabled">
+                <span class="page-link">&laquo;Next post  </span>
+            </li>
+            {{ end }}
+            
+            
+            
+            
+            {{ if .Prev }}
+            <li class="page-item">
+                <a class="page-link" href="{{ .Prev.Permalink }}" aria-label="Previous post">
+                    {{ .Prev.Title }} &raquo;
+                </a>
+            </li>
+            {{ else }}
+            <li class="page-item disabled">
+                <span class="page-link">Previous post &raquo;</span>
+            </li>
+            {{ end }}
+            
+
+        </ul>
+    </nav>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magisk Module Website</title>
+  <!-- Bootstrap CSS -->
+
+</head>
+<body>
+
+<!-- Google Tag Manager (body) -->
+{{ partial "google/tagmanager_body.html" . }}
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md bg-body-tertiary fixed-top rounded">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">
+      <img class="ICON_MAIN" src="/img/icon2.png" alt="magisk module">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/blog">Blog Posts</a>
+        </li>
+
+
+        <!-- Search form with collapsible behavior below Gaming -->
+        <li class="nav-item">
+                      {{ partial "search.html" . }}
+          <div class="nav-link">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</nav>
+
+
+
+<!-- Dark mode by bootstrap -->
+{{ partial "dark-light.html" . }}
+
+<!-- Google Tag Manager (head) -->
+{{ partial "google/tagmanager_head.html" . }}
+
+<!-- SVG -->
+{{ partial "svg.html" . }}
+
+<!-- Ads -->
+{{ partial "ads/body.html" . }}
+
+ 
+<script>
+  // Close navbar collapse when clicking outside menu
+  window.addEventListener('click', function(event) {
+    var navbarCollapse = document.getElementById('navbarCollapse');
+    var navbarToggler = document.querySelector('[data-bs-target="#navbarCollapse"]');
+    if (!navbarCollapse.contains(event.target) && event.target !== navbarToggler) {
+      var isCollapsed = navbarCollapse.classList.contains('show');
+      if (isCollapsed) {
+        navbarToggler.click();
+      }
+    }
+  });
+</script>
+
+</body>
+</html>

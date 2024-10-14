@@ -1,0 +1,56 @@
+baseurl = "https://bestmagiskmodule.github.io"
+contentdir    = "content"
+layoutdir     = "layouts"
+publishdir    = "public"
+languageCode = "en"
+resourceDir = "../resources"
+DefaultContentLanguage = "en"
+[pagination]
+Paginate     = 700
+
+PygmentsCodeFences = true
+PygmentsStyle      = "monokai"
+
+buildFuture = true
+
+[params]
+  author = { name = "magiskmodule" }
+  rssURI = "rss.xml"  # Added RSS URI here
+ads = "true"
+
+[sitemap]
+  changefreq = "daily"
+  priority = 0.8
+  filename = "sitemap.xml"
+
+[permalinks]
+  news = ":section/:year/:month/:day/:slug"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[related]
+  threshold = 0
+  includeNewer = true
+  toLower = false
+
+[[related.indices]]
+  name  = "tags"
+  weight = 100
+
+[[related.indices]]
+  name  = "categories"
+  weight = 50
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediatype = "application/rss+xml"
+    baseName = "rss"
+    isPlainText = true
+    notAlternative = true

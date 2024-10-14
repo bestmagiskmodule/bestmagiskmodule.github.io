@@ -1,0 +1,34 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  {{ range .Data.Pages }}
+    {{- if .Permalink }}
+    <url>
+      <loc>{{ .Permalink | safeURL }}</loc>
+      {{ if not .Lastmod.IsZero }}
+      <lastmod>{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}</lastmod>
+      {{ end }}
+      {{ with .Sitemap.ChangeFreq }}
+      <changefreq>{{ . }}</changefreq>
+      {{ end }}
+      {{ if ge .Sitemap.Priority 0.5 }}
+      <priority>{{ .Sitemap.Priority }}</priority>
+      {{ end }}
+      
+      {{ if .IsTranslated }}
+        {{ range .Translations }}
+        <xhtml:link 
+                    rel="alternate"
+                    hreflang="{{ .Language.LanguageCode }}"
+                    href="{{ .Permalink | safeURL }}"
+        />
+        {{ end }}
+      {{ end }}
+    </url>
+    {{- end }}
+  {{ end }}
+
+</urlset>

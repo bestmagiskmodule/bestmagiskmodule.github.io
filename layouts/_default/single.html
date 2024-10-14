@@ -1,0 +1,28 @@
+{{ define "main" }}
+ 
+<main class="container-fluid">
+
+    <article>
+      <header>
+        <h1>{{ .Title }}</h1>
+        {{ partial "adspop.html" . }}
+        {{ if or (eq .Params.ads "true") (and (not .Params.ads) (eq site.Params.ads "true")) }}
+    {{ partial "google/adsense.html" . }}
+{{ end }}
+      </header>
+      
+      {{ .Content }}
+      {{ partial "related-posts.html" . }}
+            {{ partial "next-prev.html" . }}
+      next-prev
+    </article>
+    <ul>
+      <!-- Ranges through content/posts/*.md -->
+      {{ range .Pages }}
+        <li>
+          <a href="{{ .RelPermalink }}"> {{ .LinkTitle }}</a>
+        </li>
+      {{ end }}
+    </ul>
+</main>
+{{ end }}

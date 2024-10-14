@@ -1,0 +1,52 @@
+<main class="container">
+    <article>
+        <header>
+            <h1>{{ .Title }}</h1>
+        </header>
+        {{ .Content }}
+    </article>
+    <section class="blog">
+        {{ $paginator := .Paginate (.Pages) 10 }}
+        {{ range $paginator.Pages }}
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary-emphasis">{{ .Params.category }}</strong>
+                <h3 class="mb-0"><a class="post-link" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+                <div class="mb-1 text-body-secondary">
+                    {{ .Date | time.Format ":date_medium" }}
+                </div>
+                <p class="card-text mb-auto">
+                    {{ if .Params.Excerpt }}
+                        {{ .Params.Excerpt | plainify | truncate 300 }}
+                    {{ else }}
+                        {{ .Summary | plainify | truncate 300 }}
+                    {{ end }}
+                </p>
+                <a href="{{ .Permalink }}" class="icon-link gap-1 icon-link-hover stretched-link">
+                    Continue reading
+                </a>
+            </div>
+        </div>
+        {{ end }}
+    </section>
+
+    <!-- Pagination controls -->
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            {{ if $paginator.HasPrev }}
+            <li class="page-item">
+                <a class="page-link" href="{{ $paginator.Prev.URL }}" aria-label="Previous">
+                    <span aria-hidden="true">&laquo; Previous</span>
+                </a>
+            </li>
+            {{ end }}
+            {{ if $paginator.HasNext }}
+            <li class="page-item">
+                <a class="page-link" href="{{ $paginator.Next.URL }}" aria-label="Next">
+                    <span aria-hidden="true">Next &raquo;</span>
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </nav>
+</main>
