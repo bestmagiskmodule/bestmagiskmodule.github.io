@@ -6,9 +6,7 @@ lang: eng
 tagline: Magisk Module
 ---
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8370893026371321" crossorigin="anonymous"></script>
 
-<script> (adsbygoogle = window.adsbygoogle || []).push({}); </script>
 
 # Game Domain: Bridging the Gap Between Rooted and Non-Rooted Devices
 

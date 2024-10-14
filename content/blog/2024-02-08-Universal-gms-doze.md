@@ -5,18 +5,7 @@ date: 2024-02-08
 lang: eng
 tagline: Enhancing Battery Efficiency on Android Devices with GMS Doze
 ---
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8370893026371321"
-     crossorigin="anonymous"></script>
-<!-- Display 3 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8370893026371321"
-     data-ad-slot="4101050007"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 # Introduction
 
 Universal GMS Doze is a Magisk module designed to optimize battery life on Android devices by leveraging the built-in Google Mobile Services (GMS) and implementing advanced doze settings. In this article, we'll explore the functionality of the Universal GMS Doze Magisk module, its benefits, and how to install it on your Android device. Whether you're looking to extend your device's battery life or maximize efficiency, Universal GMS Doze offers a valuable solution for Android users.
