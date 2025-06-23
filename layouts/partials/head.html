@@ -1,0 +1,31 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1769942773682600"
+     crossorigin="anonymous"></script>
+    <script type="application/javascript" src='{{ "js/theme-mode.js" | absURL }}'></script>
+    <link rel="stylesheet" href='{{ "css/frameworks.min.css" | absURL }}' />
+    <link rel="stylesheet" href='{{ "css/github.min.css" | absURL }}' />
+    <link rel="stylesheet" href='{{ "css/github-style.css" | absURL }}' />
+    <link rel="stylesheet" href='{{ "css/light.css" | absURL }}' />
+    <link rel="stylesheet" href='{{ "css/dark.css" | absURL }}' />
+    <link rel="stylesheet" href='{{ "css/syntax.css" | absURL }}' />
+    <title>{{ if .IsHome }}{{ else }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+    {{ if .Site.Params.favicon }}
+    <link rel="icon" type="image/x-icon" href='{{ .Site.Params.favicon  }}'>
+    {{ else }}
+    <link rel="icon" type="image/x-icon" href='{{ "images/favicon.ico" | absURL }}'>
+    {{ end }}
+    <meta name="theme-color" content="#1e2327">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8W0DLHTXFZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8W0DLHTXFZ');
+</script>
+    <!-- Extended head section-->
+    {{ partial "extended_head.html" . }}
+</head>

@@ -1,0 +1,507 @@
+magisk modules	1,153	7,426	3.7
+magisk module	348	1,444	2.1
+magisk modules download	146	549	2.9
+shamiko	99	2,388	5.8
+magisk modules repo	77	596	5.8
+best magisk modules	65	628	7.1
+magisk module repo	64	460	5.3
+magisk modules apk	64	318	3.1
+best magisk modules 2024	63	298	4.9
+magisk modules 2024	61	175	3.8
+lsposed zygisk	59	859	7.0
+magisk module download	51	181	2.4
+magisk	46	13,839	12.5
+zygisk lsposed	45	662	5.7
+magiskmodule.com	40	207	1.4
+magisk repo	39	398	5.7
+magisk root without pc	36	454	6.7
+magiskmodule	31	121	1.7
+adaway magisk module	29	129	5.0
+magisk module repository	28	131	4.3
+magisk zip	27	1,040	12.4
+riru magisk	27	289	5.1
+kernelsu modules	24	148	7.0
+adaway magisk	23	222	8.7
+viper4android magisk	23	181	6.1
+magisk repository	21	148	5.6
+viper4android	20	1,249	13.3
+play integrity fix	19	3,047	9.0
+magiskhide props config	16	290	8.8
+top magisk modules 2024	16	56	3.3
+module magisk	15	78	3.6
+magisk mods	15	58	2.6
+systemless hosts	14	311	4.4
+modules for magisk	14	86	3.8
+shamiko magisk	13	334	15.2
+termux magisk root	13	71	9.6
+magisk repos	12	105	5.5
+magisk modules repository	12	90	5.6
+how to root android without pc 2024	12	70	5.5
+dolby atmos magisk	12	69	6.9
+adaway magisk module download	12	44	4.5
+shamiko magiskmodule.gitlab.io	12	19	1.0
+universal safetynet fix	11	416	14.5
+magisk module apk	11	74	3.5
+lsposed magisk module	11	59	4.3
+modulos magisk	11	45	7.7
+youtube premium magisk module	11	26	12.0
+magisk must have modules	11	21	3.9
+download magisk modules	10	47	3.3
+magisk modules repo url	10	37	3.3
+safetynet fix magiskmodule.gitlab.io	10	20	1.2
+magisk manager	9	1,572	22.2
+lsposed magisk	9	243	7.2
+magisk module repos	9	79	5.2
+magisk systemless hosts module	9	62	5.5
+magisk adaway	9	60	5.0
+magisk mod	9	58	6.2
+magisk modules for gaming	9	50	7.9
+site:magiskmodule.gitlab.io magisk zip	9	20	1.0
+magisk gaming modules	9	20	3.8
+magisk zip magiskmodule.gitlab.io/magisk	9	15	1.0
+magisk download	8	2,200	10.5
+magisk play integrity fix	8	266	5.0
+must have magisk modules	8	47	3.6
+youtube premium magisk	8	38	24.9
+site:https://magiskmodule.gitlab.io/	8	30	1.0
+play integrity fix magiskmodule.gitlab.io	8	14	1.0
+riru	7	698	9.0
+magisk overlayfs	7	145	5.8
+magisk lsposed	7	139	6.2
+how to root using magisk without pc	7	67	8.7
+magisk modules repo apk	7	55	4.6
+systemless hosts magisk module	7	50	6.4
+best magisk modules for gaming	7	45	12.0
+lsposed zip	7	35	3.5
+magisk viper4android	7	35	4.7
+new magisk modules 2024	7	19	4.6
+gaming magisk modules	7	16	4.8
+youtube premium apk magisk module gitlab io	7	7	1.0
+lsposed	6	573	32.4
+play integrity fix magisk	6	138	5.4
+magisk modules android 14	6	69	9.8
+download lsposed	6	47	8.3
+magisk repositories	6	43	5.3
+magisk module repositories	6	42	4.1
+android magisk modules	6	38	3.4
+latest magisk modules	6	35	2.2
+godspeed magisk module	6	32	6.2
+magisk modules download zip	6	29	6.9
+adaway module magisk	6	28	4.9
+magisk module repository apk	6	23	2.6
+magisk module repo apk	6	21	4.7
+lsposed zygisk apk	6	15	3.7
+magisk module 2024	6	13	4.8
+lsposed apk	5	285	16.1
+zygisk download	5	201	11.9
+lsposed download	5	113	10.4
+lsposed mod apk	5	80	7.0
+lsposed 1.10.1	5	61	8.5
+magisk patch file	5	38	21.4
+modules magisk	5	34	3.1
+youtube rvx lite	5	34	5.3
+best magisk modules android 14	5	34	8.3
+root android 12 without pc	5	33	12.5
+zygisk lsposed download	5	26	3.0
+wireless firmware for nethunter download	5	25	5.0
+magiskmodules	5	24	3.2
+modulo magisk	5	23	4.1
+magisk overclock module	5	22	6.1
+termux magisk module	5	22	8.9
+adaway module	5	19	3.5
+magisk module library	5	14	3.4
+magisk manager modules download	5	14	5.1
+magisk root modules	5	12	2.2
+how to install adb module no root magisk module gitlab io	5	5	1.0
+play i tegrity fix magiskmodule.gitlab.io	5	5	1.0
+webview manager	4	689	6.2
+zygisk	4	285	22.4
+safetynet fix	4	275	19.9
+magisk module manager	4	229	9.7
+magisk 模块	4	156	7.6
+magisk systemless hosts	4	117	6.7
+universal gms doze	4	110	9.5
+viper4android apk	4	100	17.0
+magisk safetynet	4	75	11.5
+overlayfs magisk	4	64	5.1
+gaming module	4	47	1.9
+zygisk download apk	4	44	9.0
+magisk repo manager	4	42	8.7
+lsposed modules download	4	34	6.9
+riru magisk module	4	33	3.8
+zygisk-lsposed	4	24	5.2
+magisk dolby atmos	4	23	4.5
+zygisk magisk module download	4	22	8.9
+magisk best modules	4	20	5.1
+viper4android magisk module	4	19	4.9
+magisk module for gaming	4	19	5.2
+magisk systemizer	4	19	25.8
+g-visual	4	18	3.7
+must have magisk modules 2024	4	16	4.0
+lsposed zygisk install	4	15	4.9
+magisk module gaming	4	10	1.7
+magisk overlayfs module	4	10	3.8
+best magisk module for gaming	4	7	1.6
+zygisk magiskmodule.gitlab.io	4	6	1.0
+magisk module viper4android	4	6	2.7
+magisk install shamiko	4	6	5.8
+free fire headshot config file site:magiskmodule.gitlab.io	4	5	1.0
+magisk module youtube premium	4	5	1.8
+wisp magisk module	4	5	3.4
+pixel xpert	3	487	8.0
+lsposed mod	3	387	13.4
+magisk模块	3	340	7.7
+magisk zip download	3	119	12.3
+root android without pc	3	101	25.9
+play integrity fix magisk module	3	95	4.8
+play integrity fix module	3	81	6.8
+magisk modules manager	3	60	9.0
+nostoragerestrict	3	46	6.5
+app systemizer	3	42	15.1
+magisk props config	3	38	5.0
+play integrity magisk	3	38	5.4
+lsposed 1.10	3	38	8.9
+no storage restrict	3	36	4.4
+magisk shamiko	3	36	7.4
+best magisk module	3	36	8.3
+lsposed zygisk-release	3	36	9.5
+zygisk modules	3	36	14.1
+g visual mod	3	34	6.3
+magisk customization modules	3	28	3.6
+magisk install module	3	28	4.9
+magisk debloater	3	28	7.4
+where to get magisk modules	3	27	7.1
+magisk repositories list	3	27	7.2
+lsposed modules apk	3	23	8.8
+shamiko download	3	22	3.7
+location report enabler	3	21	4.1
+best modules for magisk	3	21	5.4
+no storage restrict magisk	3	19	2.7
+riru core magisk module	3	19	3.6
+all magisk modules	3	19	3.8
+pixel experience magisk module	3	19	4.7
+magisk systemless module download	3	19	6.1
+viperfx magisk	3	18	4.3
+viper4android repackaged	3	18	13.1
+spotify magisk module	3	16	7.3
+dolby atmos magisk module	3	16	9.9
+how to root your phone without a computer	3	16	29.4
+magisk best modules 2024	3	15	2.5
+overclock magisk module	3	14	4.6
+systemless hosts 1.0 by magisk	3	14	5.0
+kernelsu modules repo	3	13	8.3
+magisk module play integrity	3	12	4.0
+gcam magisk module	3	11	5.5
+nano for android ndk	3	9	2.1
+magisk modulea	3	9	3.7
+youtube site:https://magiskmodule.gitlab.io/	3	8	1.0
+magisk model	3	8	3.3
+the best magisk modules	3	8	5.1
+no storage restrict magisk module	3	6	4.0
+magisk module adaway	3	6	4.5
+lucky patcher magisk module download	3	6	10.7
+ksu modules	3	5	5.6
+magisk adaway module	3	4	1.0
+youtube premium magisk module 2024	3	4	8.0
+miui dialer magisk module	3	3	1.7
+best magisk module 2024	3	3	3.3
+magisk apk	2	1,015	31.2
+magisk github	2	363	28.8
+magisk delta	2	331	42.9
+how to install magisk modules	2	194	8.0
+viper4android fx	2	169	10.2
+gms doze	2	102	7.6
+viper4android no root	2	94	63.4
+magisk hide props	2	86	11.0
+kitsune magisk	2	86	31.6
+magisk hide module	2	82	25.0
+lsposed modules	2	72	17.5
+greenify magisk	2	62	19.0
+riru core	2	60	6.4
+magisk modules list	2	48	11.6
+magical overlayfs	2	46	3.2
+magisk module repo list	2	45	4.3
+top magisk modules	2	45	6.1
+hide my applist magisk	2	45	6.9
+zygisk apk	2	45	14.1
+magisk ssh	2	44	5.9
+shamiko module	2	43	20.4
+root without pc	2	40	19.6
+shizuku magisk	2	39	9.6
+shizuku apps	2	38	88.4
+magisk webview	2	36	4.4
+magisk repo url	2	34	4.9
+cool magisk modules	2	32	5.0
+zygisk module	2	32	17.9
+lsposed zygisk mod	2	31	5.3
+magisk repository list	2	31	6.0
+ios emoji magisk	2	29	11.3
+setprop magisk module	2	26	6.3
+busybox for android ndk	2	25	47.0
+magisk without pc	2	24	6.4
+wireless firmware for nethunter	2	23	6.8
+viper4android android 13	2	23	10.2
+shizuku magisk module	2	20	8.1
+magisk ios emoji	2	19	9.6
+how to download magisk modules	2	18	5.9
+magisk systemless	2	18	8.7
+ios emoji magisk module	2	18	8.8
+kernelsu module repository	2	18	10.2
+magisk hide module download	2	17	5.9
+magisk audio modules	2	17	7.2
+dolby atmos module	2	17	8.6
+magisk patcher	2	16	10.3
+android 14 magisk modules	2	16	13.1
+what is magisk module	2	15	3.5
+g-visual mod	2	14	5.8
+magisk font manager	2	14	7.3
+systemizer magisk	2	14	8.2
+hide mock location magisk	2	14	8.3
+magisk termux	2	14	9.4
+magisk modules for android 14	2	14	10.5
+unlimited hotspot magisk module	2	14	11.8
+magisk modul	2	13	2.1
+magisk modules for android 12	2	13	7.2
+gpu magisk module	2	13	8.2
+pubg magisk module	2	12	4.7
+magiskhide apk	2	12	5.0
+brevent modules	2	12	5.5
+safetynet magisk module	2	12	9.2
+magisk telegram	2	12	11.4
+kernelsu module download	2	11	3.5
+magisk module install	2	11	4.4
+android root modules	2	11	4.6
+app systemizer magisk	2	11	4.7
+riru edxposed zip	2	11	5.9
+magisk playcurl	2	11	6.4
+pixel magisk module	2	11	7.0
+lucky patcher magisk module	2	11	23.8
+xposed framework magisk module	2	11	35.4
+godspeed mode	2	10	6.2
+magisk adb module	2	10	9.6
+youtube adaway magisk module	2	10	10.2
+lsposed module repository	2	10	12.9
+youtube premium module magisk	2	9	3.1
+lsposed zygisk download	2	9	3.3
+modules for rooted android	2	9	5.0
+lawnchair magisk module android 14	2	9	8.0
+android module manager	2	9	13.4
+magisk modules github	2	9	15.6
+kernelsu webui	2	8	2.4
+module for magisk	2	8	3.1
+all magisk modules list	2	8	13.1
+10 reasons to root your phone in 2024 magisk module io	2	7	1.7
+module magisk gaming	2	7	2.9
+magisk moduls	2	7	3.0
+viper4android fx magisk module zip	2	7	3.1
+youtube premium magisk module github	2	7	4.0
+awesome magisk	2	7	4.3
+pubg 120 fps magisk module	2	7	6.1
+godspeed ai	2	7	6.9
+magisk custom channel	2	7	16.7
+download module magisk	2	6	4.2
+magisk hide props config zip	2	6	5.3
+magisk module zip	2	6	5.5
+pixel mods magisk	2	6	6.8
+magisk module manager download	2	6	13.7
+root android 13 without pc	2	6	22.2
+lsposed site:https://magiskmodule.gitlab.io/	2	5	1.0
+magisk modiles	2	5	3.8
+magisk ram module	2	5	3.8
+swap magisk module	2	5	5.8
+app systemizer magisk module zip	2	5	6.4
+retrobowl gitlab.io	2	4	1.0
+snapdragon magisk module	2	4	2.0
+script brevent	2	4	2.3
+zygisk lsposed apk	2	4	2.8
+godspeed net optimizer	2	4	3.0
+brevent no root apk	2	4	3.3
+latest busybox magisk module	2	4	3.3
+lsposed module download	2	4	3.8
+lsposed zygisk zip	2	4	3.8
+zygisk lsposed 1.10.1	2	4	4.8
+new magisk modules	2	3	2.3
+coolwing magisk module	2	3	3.0
+v4a magisk module	2	3	4.3
+magisk sound module	2	3	11.3
+magisk termux github	2	3	30.7
+busybox site:https://magiskmodule.gitlab.io/	2	2	1.0
+gaming modules for magisk	2	2	1.0
+aim for controller magisk module	2	2	1.5
+dolby atmos magisk module download	2	2	2.0
+snapdragon 8 gen 3 magisk module	2	2	2.0
+best module magisk	2	2	4.5
+magisk root	1	403	29.3
+magiskhide	1	119	22.3
+magisk latest version	1	90	13.2
+viper 4 android	1	87	18.1
+web view manager	1	85	6.1
+revanced installation conflict	1	77	6.6
+play integrity fix next	1	71	8.0
+edxposed	1	70	31.8
+tsupport magisk	1	65	8.5
+shizuku apk	1	65	55.7
+shamiko lsposed	1	64	10.0
+magisk delta apk	1	62	39.8
+magisk hide props config	1	61	8.8
+lsposed manager apk	1	59	12.9
+safetynet magisk	1	59	16.3
+magiskfrida	1	54	4.4
+busybox magisk	1	51	68.6
+font manager magisk	1	44	22.0
+install magisk modules	1	42	4.8
+magisk zip file	1	40	8.1
+how to root with magisk	1	39	41.8
+zygisk lsposed mod	1	38	6.1
+pixel magisk modules	1	38	7.9
+magisk 2024	1	37	7.3
+magisk systemless module	1	36	8.2
+brevent sh	1	36	13.4
+systemless	1	36	14.9
+magisk integrity fix	1	35	4.9
+magisk shizuku	1	35	8.1
+magisk safetynet fix	1	35	13.1
+shamiko unzip error	1	34	8.1
+audio modification library	1	34	20.5
+magisk boot image download	1	33	9.9
+magiskboot	1	33	17.1
+navtweaks	1	32	3.9
+lsposed manager	1	32	23.6
+magisk repo apk	1	31	5.6
+magisk frida	1	31	10.3
+magisk patched boot image file download	1	31	12.5
+zygisk magisk	1	31	25.0
+magisk ios	1	29	5.8
+how to use magisk modules	1	29	7.0
+magisk repo list	1	28	6.7
+magisk manager modules	1	27	5.5
+best lsposed modules 2024	1	27	6.0
+audio magisk module	1	27	7.7
+viper4android shizuku	1	26	5.3
+playcurl magisk	1	26	7.5
+termux	1	26	44.9
+magisk hide props config download	1	24	6.9
+revanced magisk	1	24	36.2
+shizuku modules	1	23	9.8
+greenify magisk module	1	23	19.7
+how to install magisk without pc	1	22	6.8
+magisj	1	22	12.5
+rvx lite	1	22	26.0
+magisk 27.0 zip	1	21	14.9
+boot.img for magisk download	1	21	15.3
+hide mock location	1	21	45.6
+revanced youtube installation conflict	1	20	5.6
+airmusic magisk module	1	20	5.9
+what is shamiko	1	20	7.8
+magisk module manager apk	1	20	8.4
+displax safetynet fix	1	19	7.2
+lsposed alternative	1	19	19.8
+zygisk - lsposed	1	18	4.4
+chroot magisk module	1	18	5.2
+
+
+systemless host magisk	1	18	5.8
+adb magisk	1	18	5.9
+how to root with magisk without pc	1	18	7.1
+where to download magisk modules	1	18	7.5
+magisk official website	1	18	7.6
+hide magisk module	1	18	8.9
+viper4android no driver found	1	18	12.3
+magisk no root	1	18	12.7
+miui dialer	1	18	37.5
+webview magisk	1	17	4.5
+magisk install modules	1	17	5.2
+install magisk module	1	17	5.5
+magisk fork	1	17	7.7
+play integrity fix download	1	17	8.3
+lsposed next	1	17	8.8
+magisk hide mock location	1	17	8.8
+quickswitch magisk	1	17	14.1
+magisk boot image	1	17	36.6
+magisk backup module	1	16	9.1
+magisk adb	1	16	13.3
+viper4android download	1	16	14.0
+magisk android 14	1	16	34.6
+magisk kernel module	1	15	10.2
+youtube revanced magisk	1	15	41.2
+magiskhideprops	1	14	4.6
+play integrity module	1	14	5.9
+zygisk xposed	1	14	7.8
+miui camera magisk module	1	14	8.6
+zygisk magisk download	1	14	11.7
+magicsk	1	14	13.5
+download magisk-root-boot.img zip	1	14	15.6
+magisk app systemizer	1	14	16.1
+lsposed zygisk release	1	14	18.0
+модули магиск	1	14	19.7
+magisk modules download apk	1	13	4.5
+play integrity fix apk	1	13	5.7
+play integrity fix 2024	1	13	5.9
+xposed zygisk	1	13	10.9
+kernel su modules	1	13	13.4
+safety net fix	1	13	13.8
+red magic game space apk	1	13	72.5
+magiskhide download	1	12	4.3
+systemless module	1	12	5.0
+pixel experience magisk	1	12	6.0
+zygisk lsposed 1.10.0	1	12	6.1
+dolby magisk module	1	12	9.3
+site:gitlab.io	1	12	9.6
+lsposed modules repository	1	12	10.6
+greenify4magisk	1	12	23.4
+the ultimate guide to termux	1	12	58.3
+magisk modukes	1	11	3.5
+brevent command for gaming github	1	11	4.6
+play integrity magisk module	1	11	5.1
+integrity fix magisk	1	11	5.2
+bluetooth library patcher	1	11	5.5
+install magisk without pc	1	11	6.5
+magisk audio	1	11	7.7
+youtube revanced extended anddea	1	11	11.5
+cts profile match	1	11	19.0
+delta magisk	1	11	32.0
+root android phone without pc	1	11	33.1
+hide mock location without root	1	11	34.8
+viper4android fx magisk	1	10	4.1
+shamiko apk	1	10	7.1
+magisk module app	1	10	7.7
+foxxd a56 root	1	10	20.0
+magisk 27 zip	1	10	25.8
+nothing launcher magisk module	1	9	3.0
+universal play integrity fix	1	9	4.0
+riru zip	1	9	4.1
+magisk modules repos	1	9	4.2
+best root modules	1	9	5.7
+magisk hide props module	1	9	5.7
+nethunter wireless firmware	1	9	5.8
+magisk hacking modules	1	9	5.9
+viper magisk module	1	9	6.9
+quickswitch kernelsu	1	9	7.6
+lsposed 1.10.0	1	9	8.4
+hidden settings magisk module	1	9	10.1
+launcher magisk module	1	9	11.4
+fps unlocker pubg	1	9	14.3
+magisk module template	1	9	15.0
+magisk top modules	1	8	5.9
+play integrity fix riru	1	8	5.9
+hide props config	1	8	6.0
+system debloater	1	8	6.8
+magisk zip apk	1	8	7.1
+rclone mount magisk	1	8	7.3
+galaxy ai magisk module	1	8	9.6
+zygisk download apk latest version	1	8	9.8
+zygisk module download	1	8	10.1
+module suspended because zygisk is not enabled	1	8	12.1
+v2ray magisk	1	8	20.4
+magisk alpha apk	1	8	25.5
+nethunter magisk module	1	8	27.8
+youtube rvx	1	8	31.5
+busybox xda	1	8	32.1
+how to root with magisk without twrp and pc	1	8	32.3
+magisk modulos	1	7	2.6
+magisk moduels	1	7	3.1
+
+
+
+
+
