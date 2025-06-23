@@ -17,7 +17,7 @@ tagline: Magisk Module
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-<div>
+<div> 
   <p>Are you tired of waiting for your device to charge at a snail's pace? Look no further! Introducing the Fast Charging Controller Magisk Module – a game-changer in the world of mobile charging optimization.</p>
 
   <h2>The Need for Speed</h2>
