@@ -1,4 +1,5 @@
 {{ define "overview" }}
+
 {{ $pinned := where .Site.Pages "Params.pin" true }}
 {{ $section := $pinned }}
 {{ $section_title := "Pinned" }}
@@ -32,12 +33,14 @@
       </div>
     </div>
     {{ end }}
+              {{ partial "ads/ads.html" . }}
     <div class="mt-4">
       <div class="js-pinned-items-reorder-container">
         <h2 class="f4 mb-2 text-normal">
           {{ $section_title }}
         </h2>
         <ol class="d-flex flex-wrap list-style-none gutter-condensed mb-4 js-pinned-items-reorder-list">
+        
           {{ range (first 6 $section) }}
           <li class="col-12 col-md-6 col-lg-6 mb-3 d-flex flex-content-stretch">
             <div
@@ -133,6 +136,7 @@
 
         <h2 class="f4 text-normal mt-4 mb-3">
           Post activity
+          {{ partial "ads/ads.html" . }}
         </h2>
 
         <div id="posts-activity">

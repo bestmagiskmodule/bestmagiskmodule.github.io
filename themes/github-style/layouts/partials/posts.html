@@ -1,7 +1,7 @@
 {{ define "posts" }}
 <div>
   <div class="position-relative">
-    <div>
+    <div> 
       {{ if eq .Type "tags" }}
       <div class="TableObject border-bottom border-gray-light py-3">
         <div class="user-repo-search-results-summary TableObject-item TableObject-item--primary v-align-top">
@@ -38,7 +38,9 @@
 
             <div>
               <div class="col-12 d-inline-block text-gray mb-2 pr-4">
+              {{ partial "ads/ads.html" . }}
                 {{ .Summary | safeHTML }}
+                
               </div>
             </div>
 

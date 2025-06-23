@@ -1,1 +1,0 @@
-https://bestmagiskmodule.github.io/
