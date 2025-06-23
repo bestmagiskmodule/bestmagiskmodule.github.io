@@ -10,7 +10,7 @@ append_lines_after_last_occurrence() {
         for file; do
             # Find the line number of the last occurrence of the pattern
             last_occurrence=$(grep -n "$1" "$file" | cut -d: -f1 | tail -n1)
-
+ 
             # Append lines after the last occurrence
             if [ -n "$last_occurrence" ]; then
                 sed -i "${last_occurrence}a\\
